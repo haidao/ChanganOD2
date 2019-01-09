@@ -1,0 +1,36 @@
+000;A;02;MNEMONIQUE_PARAMETRABLE       ;Mnemonique parametrable                                                                             ;20090729
+010;A;17;IDT  _CODE-VIN            _001;CODE VIN                                                                                            ;20020314
+011;A;24;IDT  _LCDV24              _001;LCDV24                                                                                              ;20020314
+012;A;02;IDT  _NOMBRE-DE-CLES      _001;Nombre de clés                                                                                      ;20020314
+013;A;12;IDT  _NUM-APVPR           _001;Numéro d'enlignement                                                                                ;20040706
+014;A;02;IDT  _NOMBRE-DE-PLIPS     _001;Nombre de plips                                                                                     ;20030723
+015;A;08;IDT  _DATE_EXTENSION      _001;Identification de la date d'extension de l'ordre de fabrication                                     ;20041202
+020;H;08;IDT  _NUM-VALVE-ROUE-AV-D _001;Numéro d'identification de la valve avant droite                                                    ;20020314
+021;H;08;IDT  _NUM-VALVE-ROUE-AR-D _001;Numéro d'identification de la valve arrière droite                                                  ;20020314
+022;H;08;IDT  _NUM-VALVE-ROUE-AV-G _001;Numéro d'identification de la valve avant gauche                                                    ;20020314
+023;H;08;IDT  _NUM-VALVE-ROUE-AR-G _001;Numéro d'identification de la valve arrière gauche                                                  ;20020314
+024;H;08;IDT  _NUM-VALVE-ROUE-SCS  _001;Numéro d'identification de la valve roue de secours                                                 ;20020314
+030;A;12;IDT  _CODE-CLE            _001;Code de déverrouillage de la BSI pour apprendre les clés                                            ;20030603
+040;A;32;IDT  _CODE-C2I-INJECT-N1  _001;Code C2I mesure injecteur                                                                           ;20070228
+041;A;32;IDT  _CODE-C2I-INJECT-N2  _001;Code C2I mesure injecteur                                                                           ;20070228
+042;A;32;IDT  _CODE-C2I-INJECT-N3  _001;Code C2I mesure injecteur                                                                           ;20070228
+043;A;32;IDT  _CODE-C2I-INJECT-N4  _001;Code C2I mesure injecteur                                                                           ;20070228
+045;A;01;IDT  _CLASSE-INJECTEUR    _001;Classe injecteur                                                                                    ;20020314
+046;A;03;IDT  _TYPE-VEHICULE       _001;type du vehicule N7-X4                                                                              ;20020909
+047;H;02;IDT  _SITE                _001;Lieu de telecodge                                                                                   ;20020909
+048;A;03;IDT  _PAYS                _001;Identification du pays                                                                              ;20040716
+049;H;10;REF-1_CMM_HARD            _001;Identification de la précédente référence Hard CMM                                                  ;20041203
+04A;H;10;REF-1_BVA_HARD            _001;Identification de la précédente référence Hard BVA                                                  ;20041203
+04B;H;10;REF-1_RADIO_HARD          _001;Identification de la précédente référence Hard RADIO                                                ;20050613
+04C;H;01;PRELEVEMENT APPEL         _001;Prelevement appel controle ECOM                                                                     ;20070214
+04D;A;02;VEHICULE DESTINATION SKD  _001;Identification des vehicules a destination de SKD                                                   ;20090708
+04E;A;02;SITE MONTAGE SKD          _001;Identification du site de remontage des vehicules SKD                                               ;20090708
+C01;A;03;ATTRI_BCM                 _000;ATTRIBUT CENTRAL : BCM                                                                              ;20100408
+C02;A;03;ATTRI_ICM                 _000;ATTRIBUT CENTRAL : ICM                                                                              ;20100409
+C03;A;03;ATTRI_ABM                 _000;ATTRIBUT CENTRAL : ABM                                                                              ;20100409
+C04;A;03;ATTRI_CLM                 _000;ATTRIBUT CENTRAL : CLM                                                                              ;20100409
+C05;A;03;ATTRI_EMS                 _000;ATTRIBUT CENTRAL : EMS                                                                              ;20100409
+C06;A;03;ATTRI_TCU                 _000;ATTRIBUT CENTRAL : TCU                                                                              ;20100409
+C07;A;03;ATTRI_IMM                 _000;ATTRIBUT CENTRAL : IMMO                                                                             ;20100409
+101;H;03;ATTRI_BCM_SOFT            _000;REFERENCE SOFT                                                                                      ;20100426
+102;H;03;ATTRI_ICM_SOFT            _000;REFERENCE SOFT                                                                                      ;20100426

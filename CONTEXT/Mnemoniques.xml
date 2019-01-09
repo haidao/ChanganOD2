@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Mnemos>
+	<Header>
+		<Format version="1.0" type="Mnemo"/>
+		<File date="18/06/04 11:53:50" version="1.0"/>
+	</Header>
+	<MnemonicsList>
+		<Mnemonic type = "Combi">
+			<Code>001</Code>
+			<FullName>
+				<Prefix>CMB</Prefix>
+				<Name>Combinaison1        </Name>
+				<Suffix>002</Suffix>
+			</FullName>
+			<Comment>Ceci est la combinaison 1</Comment>
+			<Combinaison>(14B.14L)+/A0D</Combinaison>
+		</Mnemonic>
+
+		<Mnemonic type = "Combi">
+			<Code>002</Code>
+			<FullName>
+				<Prefix>CMB</Prefix>
+				<Name>Combinaison2        </Name>
+				<Suffix>002</Suffix>
+			</FullName>
+			<Comment>Ceci est la combinaison 2</Comment>
+			<Combinaison>14B</Combinaison>
+		</Mnemonic>
+
+		<Mnemonic type = "Combi">
+			<Code>003</Code>
+			<FullName>
+				<Prefix>CMB</Prefix>
+				<Name>Combinaison3        </Name>
+				<Suffix>002</Suffix>
+			</FullName>
+			<Comment>Ceci est la combinaison 3</Comment>
+			<Combinaison>(14B+14L+A0D+A10)</Combinaison>
+		</Mnemonic>
+
+	</MnemonicsList>
+</Mnemos>

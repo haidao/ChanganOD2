@@ -1,0 +1,144 @@
+<iodissee chk="211304640">
+<entete>
+<ifichier>
+<nomfich nom="s301_17_lcm_routine_check_07">
+</nomfich>
+<modif date="28/12/2017" user="dengchao wang" site="OACTIA">
+</modif>
+</ifichier>
+<ioutil nom="ime2" version="8.2.2.0" dateexe="27/11/2017">
+</ioutil>
+</entete>
+<precel>
+</precel>
+<cel>
+<debut poscol=5 poslig=1 destc=5 destl=2 ident=10>
+<comment>Configuration information query
+</comment>
+</debut>
+<test poscol=5 poslig=2 destouic=5 destouil=3 destnonc=7 destnonl=6 ident=11>
+<Calcul>
+<TestLogique>
+<appl>
+<pour>
+<descr>LCM_ROUTINE_CHECK_07
+</descr>
+</pour>
+</appl>
+</TestLogique>
+</Calcul>
+</test>
+<result poscol=5 poslig=6 ident=13>
+</result>
+<act poscol=7 poslig=6 destc=5 destl=6 ident=23>
+</act>
+<act poscol=5 poslig=3 destc=5 destl=4 ident=26>
+<Calcul>
+<Affectation>
+<Source>
+<ReelDecimal>0
+</ReelDecimal>
+</Source>
+<Destination>
+<Buffer>
+<Numero>43
+</Numero>
+<Position>
+<ValPos>0
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+<Affectation>
+<Source>
+<EntierHexa>31
+</EntierHexa>
+</Source>
+<Destination>
+<Buffer>
+<Numero>43
+</Numero>
+<Position>
+<ValPos>1
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+<Affectation>
+<Source>
+<EntierHexa>01
+</EntierHexa>
+</Source>
+<Destination>
+<Buffer>
+<Numero>43
+</Numero>
+<Position>
+<ValPos>2
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+<Affectation>
+<Source>
+<EntierHexa>FD
+</EntierHexa>
+</Source>
+<Destination>
+<Buffer>
+<Numero>43
+</Numero>
+<Position>
+<ValPos>3
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+<Affectation>
+<Source>
+<EntierHexa>07
+</EntierHexa>
+</Source>
+<Destination>
+<Buffer>
+<Numero>43
+</Numero>
+<Position>
+<ValPos>4
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+<Affectation>
+<Source>
+<ReelDecimal>438
+</ReelDecimal>
+</Source>
+<Destination>
+<Variable nom="V7">
+</Variable>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<sarbre poscol=5 poslig=4 destc=5 destl=6 ident=27 nomfichier="s301_17_lcm_routine_check_07_genericfnc.s">
+<CheminFichier chemin="COMMUN\ECU\S301_17_LCM">
+</CheminFichier>
+</sarbre>
+</cel>
+</iodissee>

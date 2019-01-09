@@ -1,0 +1,152 @@
+<Sites>
+		 <Site SiteName="GROUPE">
+		 		 <Dicos>
+		 		 		 <Dico DicoName="GROUPE" DicoMap="GROUPE_LANG_.DBZ"/>
+		 		 </Dicos>
+		 </Site>
+		 <Site SiteName="TESTS">
+		 		 <Dicos>
+		 		 		 <Dico DicoName="TESTS_" DicoMap="TESTS__LANG_.DBZ"/>
+		 		 </Dicos>
+		 </Site>
+		 <Site SiteName="DONNEE">
+		 		 <Dicos>
+		 		 		 <Dico DicoName="DONNEE" DicoMap="DONNEE_LANG_.DBZ"/>
+		 		 </Dicos>
+		 </Site>
+		 <Site SiteName="COMMON">
+		 		 <Dicos>
+		 		 		 <Dico DicoName="COMMON" DicoMap="COMMON_LANG_.DBZ"/>
+		 		 </Dicos>
+		 </Site>
+		 <Site SiteName="DEFAUT">
+		 		 <Dicos>
+		 		 		 <Dico DicoName="DEFAUT" DicoMap="DEFAUT_LANG_.DBZ"/>
+		 		 </Dicos>
+		 </Site>
+		 <Site SiteName="VALEUR">
+		 		 <Dicos>
+		 		 		 <Dico DicoName="VALEUR" DicoMap="VALEUR_LANG_.DBZ"/>
+		 		 </Dicos>
+		 </Site>
+		 <Site SiteName="TYPES_">
+		 		 <Dicos>
+		 		 		 <Dico DicoName="TYPES_" DicoMap="TYPES__LANG_.DBZ"/>
+		 		 </Dicos>
+		 </Site>
+		 <Site SiteName="TESTS_">
+		 		 <Dicos>
+		 		 		 <Dico DicoName="TESTS_" DicoMap="TESTS__LANG_.DBZ"/>
+		 		 </Dicos>
+		 </Site>
+		 <Site SiteName="CHANEL_">
+		 		 <Dicos>
+		 		 		 <Dico DicoName="CHANEL_" DicoMap="CHANEL__LANG_.DBZ"/>
+		 		 </Dicos>
+		 </Site>
+		 <Site SiteName="flash_">
+		 		 <Dicos>
+		 		 		 <Dico DicoName="flash_" DicoMap="flash__LANG_.DBZ"/>
+		 		 </Dicos>
+		 </Site>
+		 <Site SiteName="alarme">
+		 		 <Dicos>
+		 		 		 <Dico DicoName="alarme" DicoMap="alarme_LANG_.DBZ"/>
+		 		 </Dicos>
+		 </Site>
+		 <Site SiteName="BCM">
+		 		 <Dicos>
+		 		 		 <Dico DicoName="BCM" DicoMap="BCM____LANG_.DBZ"/>
+		 		 </Dicos>
+		 </Site>
+		 <Site SiteName="btel">
+		 		 <Dicos>
+		 		 		 <Dico DicoName="btel" DicoMap="btel___LANG_.DBZ"/>
+		 		 </Dicos>
+		 </Site>
+		 <Site SiteName="bsi">
+		 		 <Dicos>
+		 		 		 <Dico DicoName="bsi" DicoMap="bsi____LANG_.DBZ"/>
+		 		 </Dicos>
+		 </Site>
+		 <Site SiteName="BVAAL4">
+		 		 <Dicos>
+		 		 		 <Dico DicoName="BVAAL4" DicoMap="BVAAL4_LANG_.DBZ"/>
+		 		 </Dicos>
+		 </Site>
+		 <Site SiteName="CAS">
+		 		 <Dicos>
+		 		 		 <Dico DicoName="CAS" DicoMap="CAS____LANG_.DBZ"/>
+		 		 </Dicos>
+		 </Site>
+		 <Site SiteName="cdc">
+		 		 <Dicos>
+		 		 		 <Dico DicoName="cdc" DicoMap="cdc____LANG_.DBZ"/>
+		 		 </Dicos>
+		 </Site>
+		 <Site SiteName="chaudiere">
+		 		 <Dicos>
+		 		 		 <Dico DicoName="chaudiere" DicoMap="CHAUDI_LANG_.DBZ"/>
+		 		 </Dicos>
+		 </Site>
+		 <Site SiteName="clim">
+		 		 <Dicos>
+		 		 		 <Dico DicoName="clim" DicoMap="clim___LANG_.DBZ"/>
+		 		 </Dicos>
+		 </Site>
+		 <Site SiteName="climGA">
+		 		 <Dicos>
+		 		 		 <Dico DicoName="climGA" DicoMap="climGA_LANG_.DBZ"/>
+		 		 </Dicos>
+		 </Site>
+		 <Site SiteName="combin">
+		 		 <Dicos>
+		 		 		 <Dico DicoName="combin" DicoMap="combin_LANG_.DBZ"/>
+		 		 </Dicos>
+		 </Site>
+		 <Site SiteName="emf">
+		 		 <Dicos>
+		 		 		 <Dico DicoName="emf" DicoMap="emf____LANG_.DBZ"/>
+		 		 </Dicos>
+		 </Site>
+		 <Site SiteName="lad">
+		 		 <Dicos>
+		 		 		 <Dico DicoName="lad" DicoMap="lad____LANG_.DBZ"/>
+		 		 </Dicos>
+		 </Site>
+		 <Site SiteName="mdplcV">
+		 		 <Dicos>
+		 		 		 <Dico DicoName="mdplcV" DicoMap="mdplcV_LANG_.DBZ"/>
+		 		 </Dicos>
+		 </Site>
+		 <Site SiteName="motev">
+		 		 <Dicos>
+		 		 		 <Dico DicoName="motev_" DicoMap="motev__LANG_.DBZ"/>
+		 		 </Dicos>
+		 </Site>
+		 <Site SiteName="nav">
+		 		 <Dicos>
+		 		 		 <Dico DicoName="nav" DicoMap="nav____LANG_.DBZ"/>
+		 		 </Dicos>
+		 </Site>
+		 <Site SiteName="rd3">
+		 		 <Dicos>
+		 		 		 <Dico DicoName="rd3" DicoMap="rd3____LANG_.DBZ"/>
+		 		 </Dicos>
+		 </Site>
+		 <Site SiteName="toit">
+		 		 <Dicos>
+		 		 		 <Dico DicoName="toit" DicoMap="toit___LANG_.DBZ"/>
+		 		 </Dicos>
+		 </Site>
+		 <Site SiteName="CANAL">
+		 		 <Dicos>
+		 		 		 <Dico DicoName="CANAL" DicoMap="CANAL__LANG_.DBZ"/>
+		 		 </Dicos>
+		 </Site>
+		 <Site SiteName="telefi">
+		 		 <Dicos>
+		 		 		 <Dico DicoName="telefi" DicoMap="telefi_LANG_.DBZ"/>
+		 		 </Dicos>
+		 </Site>
+</Sites>

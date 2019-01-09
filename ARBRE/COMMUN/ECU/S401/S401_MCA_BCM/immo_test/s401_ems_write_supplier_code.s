@@ -1,0 +1,146 @@
+<iodissee chk="212392697">
+<entete>
+<ifichier>
+<nomfich nom="s302_ems_write_supplier_code">
+</nomfich>
+<modif date="23/03/2018" user="Administrator" site="GROUPE">
+</modif>
+</ifichier>
+<ioutil nom="ime2" version="8.2.2.0" dateexe="04/11/2016">
+</ioutil>
+</entete>
+<precel>
+</precel>
+<cel>
+<debut poscol=7 poslig=1 destc=7 destl=2 ident=10>
+<comment>PEPS Write EMS Supplier Code
+</comment>
+</debut>
+<result poscol=7 poslig=5 ident=55>
+</result>
+<sarbre poscol=7 poslig=4 destc=7 destl=5 ident=117 nomfichier="genericfnc.s">
+<CheminFichier chemin="COMMUN\COMMUNICATION\GENERICFNC">
+</CheminFichier>
+</sarbre>
+<act poscol=7 poslig=2 destc=7 destl=3 ident=118>
+<Calcul>
+<Affectation>
+<Source>
+<ReelDecimal>95
+</ReelDecimal>
+</Source>
+<Destination>
+<Variable nom="V7">
+</Variable>
+</Destination>
+</Affectation>
+</Calcul>
+<Calcul>
+<Affectation>
+<Source>
+<ReelDecimal>0
+</ReelDecimal>
+</Source>
+<Destination>
+<Buffer>
+<Numero>150
+</Numero>
+<Position>
+<ValPos>0
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+<Affectation>
+<Source>
+<ReelDecimal>0
+</ReelDecimal>
+</Source>
+<Destination>
+<Buffer>
+<Numero>151
+</Numero>
+<Position>
+<ValPos>0
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+<Affectation>
+<Source>
+<ReelDecimal>0
+</ReelDecimal>
+</Source>
+<Destination>
+<Buffer>
+<Numero>43
+</Numero>
+<Position>
+<ValPos>0
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=7 poslig=3 destc=7 destl=4 ident=119>
+<Calcul>
+<Affectation>
+<Source>
+<Mnemonique Num="358" Mnemo="|EMS_SUPPLIER_NUMBER___________" Conversion="SansConversion">
+</Mnemonique>
+</Source>
+<Destination>
+<Buffer>
+<Numero>150
+</Numero>
+</Buffer>
+</Destination>
+</Affectation>
+<Conversion>
+<HexaCodeASCIIVersHexa>
+<Buffer>
+<Numero>150
+</Numero>
+</Buffer>
+<Buffer>
+<Numero>151
+</Numero>
+</Buffer>
+</HexaCodeASCIIVersHexa>
+</Conversion>
+<Affectation>
+<Source>
+<Buffer>
+<Numero>151
+</Numero>
+<Position>
+<ValPos>1
+</ValPos>
+</Position>
+</Buffer>
+</Source>
+<Destination>
+<Buffer>
+<Numero>43
+</Numero>
+<Position>
+<ValPos>1
+</ValPos>
+</Position>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+</cel>
+</iodissee>

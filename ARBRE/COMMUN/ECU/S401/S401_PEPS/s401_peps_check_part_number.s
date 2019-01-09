@@ -1,0 +1,154 @@
+<iodissee chk="193838721">
+<entete>
+<ifichier>
+<nomfich nom="s401_peps_check_part_number">
+</nomfich>
+<modif date="11/01/2017" user="dengchao wang" site="OACTIA">
+</modif>
+</ifichier>
+<ioutil nom="ime2" version="8.0.0.0" dateexe="02/05/2016">
+</ioutil>
+</entete>
+<precel>
+</precel>
+<cel>
+<debut poscol=7 poslig=1 destc=7 destl=2 ident=10>
+<comment>Read S401 PEPS Part Number
+</comment>
+</debut>
+<act poscol=7 poslig=2 destc=7 destl=3 ident=11>
+<Calcul>
+<Affectation>
+<Source>
+<ReelDecimal>0
+</ReelDecimal>
+</Source>
+<Destination>
+<Buffer>
+<Numero>43
+</Numero>
+<Position>
+<ValPos>0
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+<Affectation>
+<Source>
+<EntierHexa>22
+</EntierHexa>
+</Source>
+<Destination>
+<Buffer>
+<Numero>43
+</Numero>
+<Position>
+<ValPos>1
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+<Affectation>
+<Source>
+<EntierHexa>F1
+</EntierHexa>
+</Source>
+<Destination>
+<Buffer>
+<Numero>43
+</Numero>
+<Position>
+<ValPos>2
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+<Affectation>
+<Source>
+<EntierHexa>87
+</EntierHexa>
+</Source>
+<Destination>
+<Buffer>
+<Numero>43
+</Numero>
+<Position>
+<ValPos>3
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+<Affectation>
+<Source>
+<ReelDecimal>82
+</ReelDecimal>
+</Source>
+<Destination>
+<Variable nom="V7">
+</Variable>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<sarbre poscol=7 poslig=3 destc=7 destl=4 ident=12 nomfichier="s401_peps_check_part_number_genericfnc.s">
+<CheminFichier chemin="COMMUN\ECU\S401\S401_PEPS">
+</CheminFichier>
+</sarbre>
+<result poscol=7 poslig=6 ident=13>
+</result>
+<act poscol=7 poslig=5 destc=7 destl=6 ident=15>
+<Calcul>
+<Affectation>
+<Source>
+<Buffer>
+<Numero>10
+</Numero>
+<Position>
+<ValPos>4
+</ValPos>
+</Position>
+</Buffer>
+</Source>
+<Destination>
+<BufferGlobal>
+<Numero>15
+</Numero>
+<Position>
+<ValPos>413
+</ValPos>
+</Position>
+<Longueur>12
+</Longueur>
+</BufferGlobal>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<test poscol=7 poslig=4 destouic=9 destouil=6 destnonc=7 destnonl=5 ident=17>
+<Calcul>
+<TestLogique>
+<appl>
+<pour>
+<descr>NEXT_ECU
+</descr>
+</pour>
+</appl>
+</TestLogique>
+</Calcul>
+</test>
+<act poscol=9 poslig=6 destc=7 destl=6 ident=18>
+</act>
+</cel>
+</iodissee>

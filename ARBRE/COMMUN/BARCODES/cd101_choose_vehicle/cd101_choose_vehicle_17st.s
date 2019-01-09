@@ -1,0 +1,1660 @@
+<iodissee chk="-1627359084">
+<entete>
+<ifichier>
+<nomfich nom="cd101_choose_vehicle_17st">
+</nomfich>
+<modif date="18/04/2017" user="dengchao wang" site="OACTIA">
+</modif>
+</ifichier>
+<ioutil nom="ime2" version="8.0.0.0" dateexe="02/05/2016">
+</ioutil>
+</entete>
+<precel>
+</precel>
+<cel>
+<debut poscol=7 poslig=1 destc=7 destl=2 ident=10>
+<comment>CD101_17st choose vehicle
+</comment>
+</debut>
+<act poscol=7 poslig=2 destc=7 destl=4 ident=11>
+<Calcul>
+<Affectation>
+<Source>
+<ReelDecimal>36
+</ReelDecimal>
+</Source>
+<Destination>
+<Variable nom="V30">
+</Variable>
+</Destination>
+</Affectation>
+</Calcul>
+<Calcul>
+<Affectation>
+<Source>
+<ReelDecimal>165
+</ReelDecimal>
+</Source>
+<Destination>
+<Variable nom="V7">
+</Variable>
+</Destination>
+</Affectation>
+</Calcul>
+<Calcul>
+<Affectation>
+<Source>
+<ReelDecimal>1
+</ReelDecimal>
+</Source>
+<Destination>
+<Variable nom="V1">
+</Variable>
+</Destination>
+</Affectation>
+<Affectation>
+<Source>
+<ReelDecimal>0
+</ReelDecimal>
+</Source>
+<Destination>
+<Variable nom="V0">
+</Variable>
+</Destination>
+</Affectation>
+<Affectation>
+<Source>
+<ReelDecimal>0
+</ReelDecimal>
+</Source>
+<Destination>
+<Buffer>
+<Numero>13
+</Numero>
+<Position>
+<ValPos>0
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<test poscol=7 poslig=4 destouic=7 destouil=5 destnonc=9 destnonl=4 ident=13>
+<Operateur>
+<Affichage>
+<Paragraphe>
+<phrasext code="590" site="COMMON">
+</phrasext>
+</Paragraphe>
+<CouleurPolice Rouge=0 Vert=128 Bleu=255>
+</CouleurPolice>
+</Affichage>
+<Validation nom="OKCANCEL">
+</Validation>
+</Operateur>
+</test>
+<test poscol=9 poslig=4 destouic=9 destouil=5 destnonc=11 destnonl=4 ident=16>
+<Operateur>
+<Affichage>
+<Paragraphe>
+<phrasext code="591" site="COMMON">
+</phrasext>
+</Paragraphe>
+<CouleurPolice Rouge=0 Vert=128 Bleu=255>
+</CouleurPolice>
+</Affichage>
+<Validation nom="OKCANCEL">
+</Validation>
+</Operateur>
+</test>
+<test poscol=13 poslig=4 destouic=13 destouil=6 destnonc=15 destnonl=4 ident=64>
+<Calcul>
+<TestLogique>
+<TestVariable nom="EGAL">
+<Source>
+<Variable nom="V1">
+</Variable>
+</Source>
+<Source>
+<ReelDecimal>2
+</ReelDecimal>
+</Source>
+</TestVariable>
+</TestLogique>
+</Calcul>
+</test>
+<test poscol=15 poslig=4 destouic=17 destouil=3 destnonc=15 destnonl=6 ident=65>
+<Operateur>
+<Affichage>
+<Paragraphe>
+<phrasext code="182" site="COMMON">
+</phrasext>
+</Paragraphe>
+<CouleurPolice Rouge=255 Vert=0 Bleu=0>
+</CouleurPolice>
+</Affichage>
+<Affichage>
+<Paragraphe>
+<phrasext code="183" site="COMMON">
+</phrasext>
+</Paragraphe>
+<CouleurPolice Rouge=0 Vert=128 Bleu=255>
+</CouleurPolice>
+</Affichage>
+<Validation nom="OKCANCEL">
+</Validation>
+</Operateur>
+</test>
+<act poscol=13 poslig=6 destc=15 destl=6 ident=66>
+<Operateur>
+<Affichage>
+<Paragraphe>
+<phrasext code="182" site="COMMON">
+</phrasext>
+</Paragraphe>
+<CouleurPolice Rouge=255 Vert=0 Bleu=0>
+</CouleurPolice>
+</Affichage>
+</Operateur>
+</act>
+<act poscol=15 poslig=6 destc=15 destl=8 ident=67>
+<comment>Chose the vechile error
+</comment>
+<Calcul>
+<Addition>
+<descr>END_OF_TEST_TASK_SEQUENCE
+</descr>
+</Addition>
+</Calcul>
+<Calcul>
+<Affectation>
+<Source>
+<ReelDecimal>168
+</ReelDecimal>
+</Source>
+<Destination>
+<Variable nom="V0">
+</Variable>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<sarbre poscol=15 poslig=8 destc=15 destl=25 ident=68 nomfichier="ticket_results.s">
+<CheminFichier chemin="COMMUN\RESULTS">
+</CheminFichier>
+</sarbre>
+<act poscol=17 poslig=3 destc=7 destl=4 ident=69>
+<Calcul>
+<Addition>
+<Source>
+<Variable nom="V1">
+</Variable>
+</Source>
+<Source>
+<ReelDecimal>1
+</ReelDecimal>
+</Source>
+<Destination>
+<Variable nom="V1">
+</Variable>
+</Destination>
+</Addition>
+</Calcul>
+</act>
+<act poscol=15 poslig=25 destc=15 destl=26 ident=70>
+<Calcul>
+<Addition>
+<descr>CD101_17
+</descr>
+</Addition>
+</Calcul>
+</act>
+<result poscol=15 poslig=26 ident=71>
+</result>
+<act poscol=7 poslig=6 destc=7 destl=7 ident=108>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="2111101100021011000000100">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>13
+</Numero>
+<Position>
+<ValPos>11
+</ValPos>
+</Position>
+<Longueur>25
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=9 poslig=6 destc=9 destl=7 ident=154>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="2111101111021011000000100">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>13
+</Numero>
+<Position>
+<ValPos>11
+</ValPos>
+</Position>
+<Longueur>25
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=9 poslig=8 destc=9 destl=9 ident=155>
+<comment>//BCM
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="3600040">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>33
+</ValPos>
+</Position>
+<Longueur>7
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=9 poslig=9 destc=9 destl=10 ident=156>
+<Calcul>
+<Affectation>
+<Source>
+<EntierHexa>2D
+</EntierHexa>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>40
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=9 poslig=10 destc=9 destl=11 ident=157>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="N0402EF200432EF20100D41700FC672EF20200A5CDC095E02EF2038A082EF20455002EF2050000000000002EF20606002EF2070A170812EF1A1A0A0XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>41
+</ValPos>
+</Position>
+<Longueur>151
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=9 poslig=11 destc=9 destl=12 ident=158>
+<comment>//PEPS
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="3608010">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>192
+</ValPos>
+</Position>
+<Longueur>7
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=9 poslig=12 destc=9 destl=13 ident=159>
+<Calcul>
+<Affectation>
+<Source>
+<EntierHexa>2D
+</EntierHexa>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>199
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=9 poslig=13 destc=9 destl=14 ident=160>
+<comment>\\PEPS
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="N041XXXXXXXXXX032EF1FA1F20418200">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>200
+</ValPos>
+</Position>
+<Longueur>32
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=9 poslig=14 destc=9 destl=15 ident=161>
+<comment>//TPMS
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="XXXXXXXXXXXXXXXX">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>232
+</ValPos>
+</Position>
+<Longueur>16
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=9 poslig=15 destc=9 destl=16 ident=162>
+<comment>//SRS
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="2E00D0FF0003061D">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>248
+</ValPos>
+</Position>
+<Longueur>16
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=9 poslig=16 destc=9 destl=17 ident=163>
+<comment>//ESP
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX02EFD0601XXXXXXXX">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>264
+</ValPos>
+</Position>
+<Longueur>47
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=9 poslig=17 destc=9 destl=18 ident=164>
+<comment>//IP
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="2EF1F9552EF1F8FF2EF1FAFFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX2EF1FD552EF202552EF21013882EF211FF2EF201552EF1FF55">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>311
+</ValPos>
+</Position>
+<Longueur>128
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=9 poslig=19 destc=9 destl=20 ident=166>
+<comment>//HU
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="XXXXXXXXXX2EFD0100F0FFFAFBE1FF84FFFCFFC0F7A6F2E2">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>467
+</ValPos>
+</Position>
+<Longueur>48
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=9 poslig=20 destc=9 destl=21 ident=167>
+<comment>//GW
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="2EF1A1010101010101000100000000010101010100000000000000000000000000XXXXXXXXXX">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>515
+</ValPos>
+</Position>
+<Longueur>76
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<test poscol=11 poslig=4 destouic=11 destouil=5 destnonc=13 destnonl=4 ident=170>
+<Operateur>
+<Affichage>
+<Paragraphe>
+<phrasext code="592" site="COMMON">
+</phrasext>
+</Paragraphe>
+<CouleurPolice Rouge=0 Vert=128 Bleu=255>
+</CouleurPolice>
+</Affichage>
+<Validation nom="OKCANCEL">
+</Validation>
+</Operateur>
+</test>
+<act poscol=11 poslig=6 destc=11 destl=7 ident=171>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="2111111111021011010010100">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>13
+</Numero>
+<Position>
+<ValPos>11
+</ValPos>
+</Position>
+<Longueur>25
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=11 poslig=8 destc=11 destl=9 ident=188>
+<comment>//BCM
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="3600040">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>33
+</ValPos>
+</Position>
+<Longueur>7
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=11 poslig=9 destc=11 destl=10 ident=189>
+<Calcul>
+<Affectation>
+<Source>
+<EntierHexa>2D
+</EntierHexa>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>40
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=11 poslig=10 destc=11 destl=11 ident=190>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="N0402EF200422EF20107DF7000FFF72EF202002ACDC015E02EF2038A082EF20455002EF2050000000000002EF20606002EF2070A172812EF1A1A0A0XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>41
+</ValPos>
+</Position>
+<Longueur>151
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=11 poslig=11 destc=11 destl=12 ident=191>
+<comment>//PEPS
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="3608010">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>192
+</ValPos>
+</Position>
+<Longueur>7
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=11 poslig=12 destc=11 destl=13 ident=192>
+<Calcul>
+<Affectation>
+<Source>
+<EntierHexa>2D
+</EntierHexa>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>199
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=11 poslig=13 destc=11 destl=14 ident=193>
+<comment>\\PEPS
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="N041XXXXXXXXXX032EF1FA1F20418200">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>200
+</ValPos>
+</Position>
+<Longueur>32
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=11 poslig=14 destc=11 destl=15 ident=194>
+<comment>//TPMS
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="XXXXXXXXXXXXXXXX">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>232
+</ValPos>
+</Position>
+<Longueur>16
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=11 poslig=15 destc=11 destl=16 ident=195>
+<comment>//SRS
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="2E00D0FF0003061D">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>248
+</ValPos>
+</Position>
+<Longueur>16
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=11 poslig=16 destc=11 destl=17 ident=196>
+<comment>//ESP
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX02EFD0601XXXXXXXX">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>264
+</ValPos>
+</Position>
+<Longueur>47
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=11 poslig=17 destc=11 destl=18 ident=197>
+<comment>//IP
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="2EF1F9FF2EF1F8FF2EF1FAFFXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX2EF1FDFF2EF202552EF21013882EF211FF2EF201FF2EF1FF55">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>311
+</ValPos>
+</Position>
+<Longueur>128
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=11 poslig=18 destc=11 destl=19 ident=198>
+<comment>//TBOX
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="2EF1F0472EF1F1FFFFFF2EF1FB3A">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>439
+</ValPos>
+</Position>
+<Longueur>28
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=11 poslig=19 destc=11 destl=20 ident=199>
+<comment>//HU
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="XXXXXXXXXX2EFD0100F0FFFAFBE1FF84FFFCFFD0F7A6F2E3">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>467
+</ValPos>
+</Position>
+<Longueur>48
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=11 poslig=20 destc=11 destl=21 ident=200>
+<comment>//GW
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="2EF1A1010101010101000101010000010101010100000000000000000000000000XXXXXXXXXX">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>515
+</ValPos>
+</Position>
+<Longueur>76
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=7 poslig=5 destc=7 destl=6 ident=204>
+<Calcul>
+<Addition>
+<descr>1.5T_AT_LEV1
+</descr>
+</Addition>
+</Calcul>
+</act>
+<act poscol=7 poslig=8 destc=7 destl=9 ident=205>
+<comment>//BCM
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="3600040">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>33
+</ValPos>
+</Position>
+<Longueur>7
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=7 poslig=9 destc=7 destl=10 ident=206>
+<Calcul>
+<Affectation>
+<Source>
+<EntierHexa>2D
+</EntierHexa>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>40
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=7 poslig=10 destc=7 destl=11 ident=207>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="N0412EF200442EF20100D41700606A2EF20200C04D449D002EF2038A082EF20455002EF2050000000000002EF20606002EF2070A160012EF1A1A0A0XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>41
+</ValPos>
+</Position>
+<Longueur>151
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=7 poslig=11 destc=7 destl=12 ident=208>
+<comment>//PEPS
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="XXXXXXX">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>192
+</ValPos>
+</Position>
+<Longueur>7
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=7 poslig=12 destc=7 destl=13 ident=209>
+<Calcul>
+<Affectation>
+<Source>
+<EntierHexa>2D
+</EntierHexa>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>199
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=7 poslig=13 destc=7 destl=14 ident=210>
+<comment>\\PEPS
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>200
+</ValPos>
+</Position>
+<Longueur>32
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=7 poslig=14 destc=7 destl=15 ident=211>
+<comment>//TPMS
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="XXXXXXXXXXXXXXXX">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>232
+</ValPos>
+</Position>
+<Longueur>16
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=7 poslig=7 destc=7 destl=8 ident=212>
+<comment>//TPMS ID
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>1
+</ValPos>
+</Position>
+<Longueur>32
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=7 poslig=15 destc=7 destl=16 ident=213>
+<comment>//SRS
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="2E00D00F0000061D">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>248
+</ValPos>
+</Position>
+<Longueur>16
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=7 poslig=16 destc=7 destl=17 ident=214>
+<comment>//ESP
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX02EFD0601XXXXXXXX">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>264
+</ValPos>
+</Position>
+<Longueur>47
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=7 poslig=17 destc=7 destl=18 ident=215>
+<comment>//IP
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="2EF1F9552EF1F8FF2EF1FA55XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX2EF1FD552EF202552EF21013882EF211FF2EF201552EF1FF55">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>311
+</ValPos>
+</Position>
+<Longueur>128
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=7 poslig=18 destc=7 destl=19 ident=216>
+<comment>//TBOX
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="XXXXXXXXXXXXXXXXXXXXXXXXXXXX">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>439
+</ValPos>
+</Position>
+<Longueur>28
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=7 poslig=19 destc=7 destl=20 ident=217>
+<comment>//HU
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="XXXXXXXXXX2EFD0100F0FFFAFBE1FF84FFFCFFC0F6A6F2E1">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>467
+</ValPos>
+</Position>
+<Longueur>48
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=7 poslig=20 destc=7 destl=21 ident=218>
+<comment>//GW
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="2EF1A1010101010101000100000000010001010100000000000000000000000000XXXXXXXXXX">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>515
+</ValPos>
+</Position>
+<Longueur>76
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=7 poslig=22 destc=7 destl=23 ident=219>
+<comment>//TCU
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="02">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>725
+</ValPos>
+</Position>
+<Longueur>2
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=7 poslig=23 destc=7 destl=24 ident=220>
+<comment>//RRS
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="XXXXXXXX">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>727
+</ValPos>
+</Position>
+<Longueur>8
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=7 poslig=25 destc=9 destl=25 ident=221>
+</act>
+<act poscol=9 poslig=5 destc=9 destl=6 ident=222>
+<Calcul>
+<Addition>
+<descr>1.5T_AT_LEV2
+</descr>
+</Addition>
+</Calcul>
+</act>
+<act poscol=9 poslig=7 destc=9 destl=8 ident=223>
+<comment>//TPMS ID
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>1
+</ValPos>
+</Position>
+<Longueur>32
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=9 poslig=18 destc=9 destl=19 ident=224>
+<comment>//TBOX
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="XXXXXXXXXXXXXXXXXXXXXXXXXXXX">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>439
+</ValPos>
+</Position>
+<Longueur>28
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=9 poslig=22 destc=9 destl=23 ident=225>
+<comment>//TCU
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="02">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>725
+</ValPos>
+</Position>
+<Longueur>2
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=9 poslig=23 destc=9 destl=24 ident=226>
+<comment>//RRS
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="XXXXXXXX">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>727
+</ValPos>
+</Position>
+<Longueur>8
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=9 poslig=25 destc=11 destl=25 ident=227>
+</act>
+<act poscol=11 poslig=5 destc=11 destl=6 ident=228>
+<Calcul>
+<Addition>
+<descr>1.5T_AT_LEV3
+</descr>
+</Addition>
+</Calcul>
+</act>
+<act poscol=11 poslig=7 destc=11 destl=8 ident=229>
+<comment>//TPMS ID
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>1
+</ValPos>
+</Position>
+<Longueur>32
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=11 poslig=22 destc=11 destl=23 ident=230>
+<comment>//TCU
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="02">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>725
+</ValPos>
+</Position>
+<Longueur>2
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=11 poslig=23 destc=11 destl=24 ident=231>
+<comment>//RRS
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="2EFD967C">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>727
+</ValPos>
+</Position>
+<Longueur>8
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=11 poslig=25 destc=15 destl=25 ident=232>
+</act>
+<act poscol=7 poslig=24 destc=7 destl=25 ident=234>
+<comment>//EMS
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="02">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>735
+</ValPos>
+</Position>
+<Longueur>2
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=9 poslig=24 destc=9 destl=25 ident=235>
+<comment>//EMS
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="03">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>735
+</ValPos>
+</Position>
+<Longueur>2
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=11 poslig=24 destc=11 destl=25 ident=236>
+<comment>//EMS
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="03">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>735
+</ValPos>
+</Position>
+<Longueur>2
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=11 poslig=21 destc=11 destl=22 ident=237>
+<comment>//LDW
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>591
+</ValPos>
+</Position>
+<Longueur>94
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+<Affectation>
+<Source>
+<ChaineASCII valeur="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>685
+</ValPos>
+</Position>
+<Longueur>40
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=9 poslig=21 destc=9 destl=22 ident=238>
+<comment>//LDW
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>591
+</ValPos>
+</Position>
+<Longueur>94
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+<Affectation>
+<Source>
+<ChaineASCII valeur="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>685
+</ValPos>
+</Position>
+<Longueur>40
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=7 poslig=21 destc=7 destl=22 ident=239>
+<comment>//LDW
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ChaineASCII valeur="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>591
+</ValPos>
+</Position>
+<Longueur>94
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+<Affectation>
+<Source>
+<ChaineASCII valeur="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>685
+</ValPos>
+</Position>
+<Longueur>40
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+</cel>
+</iodissee>

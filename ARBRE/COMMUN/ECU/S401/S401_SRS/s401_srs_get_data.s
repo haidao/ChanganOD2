@@ -1,0 +1,242 @@
+<iodissee chk="458831736">
+<entete>
+<ifichier>
+<nomfich nom="s401_srs_get_data">
+</nomfich>
+<modif date="07/11/2016" user="dengchao wang" site="OACTIA">
+</modif>
+</ifichier>
+<ioutil nom="ime2" version="8.0.0.0" dateexe="02/05/2016">
+</ioutil>
+</entete>
+<precel>
+</precel>
+<cel>
+<debut poscol=7 poslig=1 destc=7 destl=2 ident=10>
+</debut>
+<act poscol=7 poslig=2 destc=7 destl=4 ident=11>
+<Calcul>
+<Affectation>
+<Source>
+<ReelDecimal>0
+</ReelDecimal>
+</Source>
+<Destination>
+<Buffer>
+<Numero>30
+</Numero>
+<Position>
+<ValPos>0
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</Buffer>
+</Destination>
+</Affectation>
+<Affectation>
+<Source>
+<BufferGlobal>
+<Numero>12
+</Numero>
+<Position>
+<ValPos>302
+</ValPos>
+</Position>
+<Longueur>30
+</Longueur>
+</BufferGlobal>
+</Source>
+<Destination>
+<Buffer>
+<Numero>30
+</Numero>
+</Buffer>
+</Destination>
+</Affectation>
+<Affectation>
+<Source>
+<BufferGlobal>
+<Numero>13
+</Numero>
+<Position>
+<ValPos>3
+</ValPos>
+</Position>
+<Longueur>8
+</Longueur>
+</BufferGlobal>
+</Source>
+<Destination>
+<Buffer>
+<Numero>30
+</Numero>
+<Position>
+<ValPos>31
+</ValPos>
+</Position>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=9 poslig=6 destc=7 destl=7 ident=13>
+<Calcul>
+<Addition>
+<descr>WRITE_ENABLE_FIRING
+</descr>
+</Addition>
+<Addition>
+<descr>SRS_TELECODING
+</descr>
+</Addition>
+</Calcul>
+</act>
+<act poscol=5 poslig=6 destc=7 destl=9 ident=15>
+<Operateur>
+<Affichage>
+<Buffer>
+<Numero>30
+</Numero>
+<Position>
+<ValPos>1
+</ValPos>
+</Position>
+<Longueur>16
+</Longueur>
+</Buffer>
+</Affichage>
+<Affichage>
+<Buffer>
+<Numero>30
+</Numero>
+<Position>
+<ValPos>17
+</ValPos>
+</Position>
+<Longueur>8
+</Longueur>
+</Buffer>
+</Affichage>
+<Validation nom="OK">
+</Validation>
+</Operateur>
+</act>
+<result poscol=7 poslig=9 ident=16>
+</result>
+<test poscol=7 poslig=7 destouic=9 destouil=8 destnonc=7 destnonl=9 ident=18>
+<Operateur>
+</Operateur>
+<Calcul>
+<TestLogique>
+<TestVariable nom="DIFFERENT">
+<Source>
+<Buffer>
+<Numero>30
+</Numero>
+<Position>
+<ValPos>31
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</Buffer>
+</Source>
+<Source>
+<ChaineASCII valeur="X">
+</ChaineASCII>
+</Source>
+</TestVariable>
+<TestVariable nom="DIFFERENT">
+<Source>
+<Buffer>
+<Numero>30
+</Numero>
+<Position>
+<ValPos>31
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</Buffer>
+</Source>
+<Source>
+<ChaineASCII valeur="F">
+</ChaineASCII>
+</Source>
+</TestVariable>
+</TestLogique>
+</Calcul>
+</test>
+<act poscol=9 poslig=8 destc=7 destl=9 ident=19>
+<Calcul>
+<Addition>
+<descr>SRS_WRITE_DATE
+</descr>
+</Addition>
+</Calcul>
+</act>
+<test poscol=7 poslig=4 destouic=9 destouil=6 destnonc=7 destnonl=7 ident=21>
+<Operateur>
+</Operateur>
+<Calcul>
+<TestLogique>
+<TestVariable nom="DIFFERENT">
+<Source>
+<Buffer>
+<Numero>30
+</Numero>
+<Position>
+<ValPos>1
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</Buffer>
+</Source>
+<Source>
+<ChaineASCII valeur="X">
+</ChaineASCII>
+</Source>
+</TestVariable>
+<TestVariable nom="DIFFERENT">
+<Source>
+<Buffer>
+<Numero>30
+</Numero>
+<Position>
+<ValPos>1
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</Buffer>
+</Source>
+<Source>
+<ChaineASCII valeur="F">
+</ChaineASCII>
+</Source>
+</TestVariable>
+</TestLogique>
+</Calcul>
+</test>
+<act poscol=5 poslig=3 destc=7 destl=4 ident=22>
+<Operateur>
+<Affichage>
+<Buffer>
+<Numero>13
+</Numero>
+<Position>
+<ValPos>3
+</ValPos>
+</Position>
+<Longueur>8
+</Longueur>
+</Buffer>
+</Affichage>
+<Validation nom="OK">
+</Validation>
+</Operateur>
+</act>
+</cel>
+</iodissee>

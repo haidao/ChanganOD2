@@ -1,0 +1,3428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Naming Default="FR">
+	<Element elementName="Fichier">
+		<Attribute attributeName="Localisation">
+			<EnumeratedValues>
+				<Content contentName="RepTempMemoire">
+					<Alias>
+						<FR>RepTempMemoire</FR>
+						<EN>TempMemoryDirectory</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="RepTempImpression">
+					<Alias>
+						<FR>RepTempImpression</FR>
+						<EN>TempPritingDirectory</EN>	
+					</Alias>
+				</Content>					
+			</EnumeratedValues>	
+		</Attribute>		
+	</Element>	
+	<Element elementName="ChronometreS">
+		<Attribute attributeName="Numero">
+			<EnumeratedValues>
+				<Content contentName="C0">
+					<Alias>
+						<FR>C0</FR>
+						<EN>C0</EN>	
+					</Alias>
+				</Content>		
+				<Content contentName="C1">
+					<Alias>
+						<FR>C1</FR>
+						<EN>C1</EN>	
+					</Alias>
+				</Content>	
+				<Content contentName="C2">
+					<Alias>
+						<FR>C2</FR>
+						<EN>C2</EN>		
+					</Alias>
+				</Content>		
+				<Content contentName="C3">
+					<Alias>
+						<FR>C3</FR>
+						<EN>C3</EN>		
+					</Alias>
+				</Content>	
+				<Content contentName="C4">
+					<Alias>
+						<FR>C4</FR>
+						<EN>C4</EN>		
+					</Alias>
+				</Content>		
+				<Content contentName="C5">
+					<Alias>
+						<FR>C5</FR>
+						<EN>C5</EN>		
+					</Alias>
+				</Content>	
+				<Content contentName="C6">
+					<Alias>
+						<FR>C6</FR>
+						<EN>C6</EN>		
+					</Alias>
+				</Content>		
+				<Content contentName="C7">
+					<Alias>
+						<FR>C7</FR>
+						<EN>C7</EN>	
+					</Alias>
+				</Content>	
+				<Content contentName="C8">
+					<Alias>
+						<FR>C8</FR>
+						<EN>C8</EN>		
+					</Alias>
+				</Content>		
+				<Content contentName="C9">
+					<Alias>
+						<FR>C9</FR>
+						<EN>C9</EN>		
+					</Alias>
+				</Content>					
+			</EnumeratedValues>				
+		</Attribute>		
+	</Element>		
+	<Element elementName="FiltreEtatDefaut">
+		<Attribute attributeName="Etat">	
+			<EnumeratedValues>
+				<Content contentName="Permanent">
+					<Alias>
+						<FR>Permanent</FR>
+						<EN>Permanent</EN>	
+					</Alias>
+				</Content>		
+				<Content contentName="Fugitif">
+					<Alias>
+						<FR>Fugitif</FR>
+						<EN>Fugitive</EN>	
+					</Alias>
+				</Content>					
+			</EnumeratedValues>	
+		</Attribute>		
+	</Element>		
+	<Element elementName="Decodage">
+		<Attribute attributeName="Type">
+			<EnumeratedValues>
+				<Content contentName="ISO">
+					<Alias>
+						<FR>ISO</FR>
+						<EN>ISO</EN>	
+					</Alias>
+				</Content>		
+				<Content contentName="CAR">
+					<Alias>
+						<FR>CAR</FR>
+						<EN>CAR</EN>	
+					</Alias>
+				</Content>					
+			</EnumeratedValues>	
+		</Attribute>		
+	</Element>		
+	<Element elementName="VitesseReseau">
+		<Attribute attributeName="NomBus">
+			<EnumeratedValues>
+				<Content contentName="CAN_DIAG">
+					<Alias>
+						<FR>CAN_DIAG</FR>
+						<EN>CAN_DIAG</EN>	
+					</Alias>
+				</Content>		
+				<Content contentName="CAN_IS">
+					<Alias>
+						<FR>CAN_IS</FR>
+						<EN>CAN_IS</EN>	
+					</Alias>
+				</Content>					
+			</EnumeratedValues>	
+		</Attribute>	
+		<Attribute attributeName="Vitesse">
+			<EnumeratedValues>
+				<Content contentName="125_Kbaud">
+					<Alias>
+						<FR>125_Kbaud</FR>
+						<EN>125_Kbaud</EN>	
+					</Alias>
+				</Content>		
+				<Content contentName="250_Kbaud">
+					<Alias>
+						<FR>250_Kbaud</FR>
+						<EN>250_Kbaud</EN>	
+					</Alias>
+				</Content>	
+				<Content contentName="500_Kbaud">
+					<Alias>
+						<FR>500_Kbaud</FR>
+						<EN>500_Kbaud</EN>	
+					</Alias>
+				</Content>	
+				<Content contentName="1_Mbaud">
+					<Alias>
+						<FR>1_Mbaud</FR>
+						<EN>1_Mbaud</EN>	
+					</Alias>
+				</Content>					
+			</EnumeratedValues>	
+		</Attribute>			
+	</Element>	
+	<Element elementName="BusCAN">
+		<Attribute attributeName="NomBus">
+			<EnumeratedValues>
+				<Content contentName="CAN_DIAG">
+					<Alias>
+						<FR>CAN_DIAG</FR>
+						<EN>CAN_DIAG</EN>	
+					</Alias>
+				</Content>		
+				<Content contentName="CAN_IS">
+					<Alias>
+						<FR>CAN_IS</FR>
+						<EN>CAN_IS</EN>	
+					</Alias>
+				</Content>					
+			</EnumeratedValues>				
+		</Attribute>		
+	</Element>	
+	<Element elementName="BusCANparametrable">
+		<Attribute attributeName="NomBus">
+			<EnumeratedValues>
+				<Content contentName="CAN_DIAG">
+					<Alias>
+						<FR>CAN_DIAG</FR>
+						<EN>CAN_DIAG</EN>		
+					</Alias>
+				</Content>		
+				<Content contentName="CAN_IS">
+					<Alias>
+						<FR>CAN_IS</FR>
+						<EN>CAN_IS</EN>		
+					</Alias>
+				</Content>					
+			</EnumeratedValues>				
+		</Attribute>		
+	</Element>
+	<Element elementName="Automaintien">
+		<Attribute attributeName="nom">
+			<EnumeratedValues>
+				<Content contentName="ON">
+					<Alias>
+						<FR>ON</FR>
+						<EN>ON</EN>	
+					</Alias>
+				</Content>		
+				<Content contentName="OFF">
+					<Alias>
+						<FR>OFF</FR>
+						<EN>OFF</EN>	
+					</Alias>
+				</Content>					
+			</EnumeratedValues>				
+		</Attribute>		
+	</Element>	
+	<Element elementName="CodeLocal">
+		<Attribute attributeName="nom">
+			<EnumeratedValues>
+				<Content contentName="Libre1">
+					<Alias>
+						<FR>Libre1</FR>
+						<EN>Free1</EN>	
+					</Alias>
+				</Content>		
+				<Content contentName="Libre2">
+					<Alias>
+						<FR>Libre2</FR>
+						<EN>Free2</EN>		
+					</Alias>
+				</Content>		
+				<Content contentName="Libre3">
+					<Alias>
+						<FR>Libre3</FR>
+						<EN>Free3</EN>		
+					</Alias>
+				</Content>		
+				<Content contentName="Libre4">
+					<Alias>
+						<FR>Libre4</FR>
+						<EN>Free4</EN>		
+					</Alias>
+				</Content>
+				<Content contentName="Libre5">
+					<Alias>
+						<FR>Libre5</FR>
+						<EN>Free5</EN>		
+					</Alias>
+				</Content>		
+				<Content contentName="Libre6">
+					<Alias>
+						<FR>Libre6</FR>
+						<EN>Free6</EN>		
+					</Alias>
+				</Content>
+				<Content contentName="Libre7">
+					<Alias>
+						<FR>Libre7</FR>
+						<EN>Free7</EN>		
+					</Alias>
+				</Content>		
+				<Content contentName="Libre8">
+					<Alias>
+						<FR>Libre8</FR>
+						<EN>Free8</EN>		
+					</Alias>
+				</Content>
+				<Content contentName="Libre9">	
+					<Alias>
+						<FR>Libre9</FR>
+						<EN>Free9</EN>		
+					</Alias>
+				</Content>		
+				<Content contentName="Libre10">
+					<Alias>
+						<FR>Libre10</FR>
+						<EN>Free10</EN>		
+					</Alias>
+				</Content>
+				<Content contentName="Libre11">
+					<Alias>
+						<FR>Libre11</FR>
+						<EN>Free11</EN>		
+					</Alias>
+				</Content>		
+				<Content contentName="Libre12">
+					<Alias>
+						<FR>Libre12</FR>
+						<EN>Free12</EN>		
+					</Alias>
+				</Content>
+				<Content contentName="Libre13">
+					<Alias>
+						<FR>Libre13</FR>
+						<EN>Free13</EN>		
+					</Alias>
+				</Content>		
+				<Content contentName="Libre14">	
+					<Alias>
+						<FR>Libre14</FR>
+						<EN>Free14</EN>		
+					</Alias>
+				</Content>
+				<Content contentName="Libre15">
+					<Alias>
+						<FR>Libre15</FR>
+						<EN>Free15</EN>		
+					</Alias>
+				</Content>		
+				<Content contentName="Libre16">
+					<Alias>
+						<FR>Libre16</FR>
+						<EN>Free16</EN>		
+					</Alias>
+				</Content>
+				<Content contentName="Libre17">	
+					<Alias>
+						<FR>Libre17</FR>
+						<EN>Free17</EN>		
+					</Alias>
+				</Content>		
+				<Content contentName="Libre18">
+					<Alias>
+						<FR>Libre18</FR>
+						<EN>Free18</EN>		
+					</Alias>
+				</Content>	
+				<Content contentName="Libre19">
+					<Alias>
+						<FR>Libre19</FR>
+						<EN>Free19</EN>		
+					</Alias>
+				</Content>		
+				<Content contentName="Libre20">
+					<Alias>
+						<FR>Libre20</FR>
+						<EN>Free20</EN>		
+					</Alias>
+				</Content>					
+			</EnumeratedValues>				
+		</Attribute>		
+	</Element>	
+	<Element elementName="Code">
+		<Attribute attributeName="nom">
+			<EnumeratedValues>
+				<Content contentName="Vehicule">
+					<Alias>
+						<FR>Vehicule</FR>
+						<EN>Vehicle</EN>		
+					</Alias>
+				</Content>	
+				<Content contentName="Transpondeur">
+					<Alias>
+						<FR>Transpondeur</FR>
+						<EN>Transponder</EN>	
+					</Alias>
+				</Content>	
+				<Content contentName="Plip1">
+					<Alias>
+						<FR>Plip1</FR>
+						<EN>Plip2</EN>	
+					</Alias>
+				</Content>	
+				<Content contentName="Plip2">
+					<Alias>
+						<FR>Plip2</FR>
+						<EN>Plip2</EN>	
+					</Alias>
+				</Content>	
+				<Content contentName="Plip3">
+					<Alias>
+						<FR>Plip3</FR>
+						<EN>Plip3</EN>	
+					</Alias>
+				</Content>	
+				<Content contentName="Plip4">
+					<Alias>
+						<FR>Plip4</FR>
+						<EN>Plip4</EN>	
+					</Alias>
+				</Content>	
+				<Content contentName="Generique">
+					<Alias>
+						<FR>Generique</FR>
+						<EN>Generic</EN>	
+					</Alias>
+				</Content>	
+				<Content contentName="VIN">
+					<Alias>
+						<FR>VIN</FR>
+						<EN>VIN</EN>	
+					</Alias>
+				</Content>	
+				<Content contentName="ACCES">
+					<Alias>
+						<FR>ACCES</FR>
+						<EN>ACCESS</EN>	
+					</Alias>
+				</Content>					
+				<Content contentName="Libre1">
+					<Alias>
+						<FR>Libre1</FR>
+						<EN>Free1</EN>	
+					</Alias>
+				</Content>		
+				<Content contentName="Libre2">
+					<Alias>
+						<FR>Libre2</FR>
+						<EN>Free2</EN>		
+					</Alias>
+				</Content>		
+				<Content contentName="Libre3">
+					<Alias>
+						<FR>Libre3</FR>
+						<EN>Free3</EN>		
+					</Alias>
+				</Content>		
+				<Content contentName="Libre4">
+					<Alias>
+						<FR>Libre4</FR>
+						<EN>Free4</EN>		
+					</Alias>
+				</Content>
+				<Content contentName="Libre5">
+					<Alias>
+						<FR>Libre5</FR>
+						<EN>Free5</EN>		
+					</Alias>
+				</Content>		
+				<Content contentName="Libre6">
+					<Alias>
+						<FR>Libre6</FR>
+						<EN>Free6</EN>		
+					</Alias>
+				</Content>
+				<Content contentName="Libre7">
+					<Alias>
+						<FR>Libre7</FR>
+						<EN>Free7</EN>		
+					</Alias>
+				</Content>		
+				<Content contentName="Libre8">
+					<Alias>
+						<FR>Libre8</FR>
+						<EN>Free8</EN>		
+					</Alias>
+				</Content>
+				<Content contentName="Libre9">
+					<Alias>
+						<FR>Libre9</FR>
+						<EN>Free9</EN>		
+					</Alias>
+				</Content>		
+				<Content contentName="Libre10">
+					<Alias>
+						<FR>Libre10</FR>
+						<EN>Free10</EN>		
+					</Alias>
+				</Content>
+				<Content contentName="Libre11">
+					<Alias>
+						<FR>Libre11</FR>
+						<EN>Free11</EN>		
+					</Alias>
+				</Content>		
+				<Content contentName="Libre12">
+					<Alias>
+						<FR>Libre12</FR>
+						<EN>Free12</EN>		
+					</Alias>
+				</Content>
+				<Content contentName="Libre13">
+					<Alias>
+						<FR>Libre13</FR>
+						<EN>Free13</EN>		
+					</Alias>
+				</Content>		
+				<Content contentName="Libre14">
+					<Alias>
+						<FR>Libre14</FR>
+						<EN>Free14</EN>		
+					</Alias>
+				</Content>
+				<Content contentName="Libre15">
+					<Alias>
+						<FR>Libre15</FR>
+						<EN>Free15</EN>		
+					</Alias>
+				</Content>		
+				<Content contentName="Libre16">
+					<Alias>
+						<FR>Libre16</FR>
+						<EN>Free16</EN>		
+					</Alias>
+				</Content>
+				<Content contentName="Libre17">
+					<Alias>
+						<FR>Libre17</FR>
+						<EN>Free17</EN>		
+					</Alias>
+				</Content>		
+				<Content contentName="Libre18">
+					<Alias>
+						<FR>Libre18</FR>
+						<EN>Free18</EN>		
+					</Alias>
+				</Content>	
+				<Content contentName="Libre19">
+					<Alias>
+						<FR>Libre19</FR>
+						<EN>Free19</EN>	
+					</Alias>
+				</Content>		
+				<Content contentName="Libre20">
+					<Alias>
+						<FR>Libre20</FR>
+						<EN>Free20</EN>		
+					</Alias>
+				</Content>	
+				<Content contentName="VIS">
+					<Alias>
+						<FR>VIS</FR>
+						<EN>VIS</EN>	
+					</Alias>
+				</Content>	
+				<Content contentName="VersionGamme">
+					<Alias>
+						<FR>VersionGamme</FR>
+						<EN>TestSequenceVersion</EN>	
+					</Alias>
+				</Content>	
+				<Content contentName="IDOPERATEUR">
+					<Alias>
+						<FR>IDOPERATEUR</FR>
+						<EN>IDOPERATORID</EN>	
+					</Alias>
+				</Content>	
+				<Content contentName="MNEMOERREUR">
+					<Alias>
+						<FR>MNEMOERREUR</FR>
+						<EN>MNEMOERROR</EN>	
+					</Alias>
+				</Content>	
+				<Content contentName="ZONE">
+					<Alias>
+						<FR>ZONE</FR>
+						<EN>ZONE</EN>	
+					</Alias>
+				</Content>					
+			</EnumeratedValues>				
+		</Attribute>		
+	</Element>	
+	<Element elementName="LectureTension">
+		<Attribute attributeName="nom">
+			<EnumeratedValues>
+				<Content contentName="VBAT">
+					<Alias>
+						<FR>VBAT</FR>
+						<EN>VBAT</EN>	
+					</Alias>
+				</Content>		
+				<Content contentName="VAPC">
+					<Alias>
+						<FR>VAPC</FR>
+						<EN>VAPC</EN>	
+					</Alias>
+				</Content>					
+			</EnumeratedValues>				
+		</Attribute>		
+	</Element>	
+	<Element elementName="DecodageDefaut">
+		<Attribute attributeName="site">
+			<EnumeratedValues>
+				<Content contentName="AULNAY">
+					<Alias>
+						<FR>AULNAY</FR>
+						<EN>AULNAY</EN>	
+					</Alias>
+				</Content>		
+				<Content contentName="EURO">
+					<Alias>
+						<FR>EURO</FR>
+						<EN>EURO</EN>	
+					</Alias>
+				</Content>	
+				<Content contentName="MADRID">
+					<Alias>
+						<FR>MADRID</FR>
+						<EN>MADRID</EN>	
+					</Alias>
+				</Content>		
+				<Content contentName="MULHOU">
+					<Alias>
+						<FR>MULHOU</FR>
+						<EN>MULHOU</EN>	
+					</Alias>
+				</Content>
+				<Content contentName="PF">
+					<Alias>
+						<FR>PF</FR>
+						<EN>PF</EN>	
+					</Alias>
+				</Content>		
+				<Content contentName="POISSY">
+					<Alias>
+						<FR>POISSY</FR>
+						<EN>POISSY</EN>	
+					</Alias>
+				</Content>
+				<Content contentName="RENNES">
+					<Alias>
+						<FR>RENNES</FR>
+						<EN>RENNES</EN>	
+					</Alias>
+				</Content>		
+				<Content contentName="RYTON">
+					<Alias>
+						<FR>RYTON</FR>
+						<EN>RYTON</EN>	
+					</Alias>
+				</Content>
+				<Content contentName="SEVELN">
+					<Alias>
+						<FR>SEVELN</FR>
+						<EN>SEVELN</EN>	
+					</Alias>
+				</Content>		
+				<Content contentName="USOCHA">
+					<Alias>
+						<FR>USOCHA</FR>
+						<EN>USOCHA</EN>	
+					</Alias>
+				</Content>
+				<Content contentName="VIGO">
+					<Alias>
+						<FR>VIGO</FR>
+						<EN>VIGO</EN>	
+					</Alias>
+				</Content>		
+				<Content contentName="OACTIA">
+					<Alias>
+						<FR>OACTIA</FR>
+						<EN>OACTIA</EN>	
+					</Alias>
+				</Content>				
+			</EnumeratedValues>				
+		</Attribute>		
+	</Element>	
+	<Element elementName="BusCANEOBD">
+		<Attribute attributeName="NomBus">
+			<EnumeratedValues>
+				<Content contentName="CAN_DIAG">
+					<Alias>
+						<FR>CAN_DIAG</FR>
+						<EN>CAN_DIAG</EN>		
+					</Alias>
+				</Content>		
+				<Content contentName="CAN_IS">
+					<Alias>
+						<FR>CAN_IS</FR>
+						<EN>CAN_IS</EN>		
+					</Alias>
+				</Content>					
+			</EnumeratedValues>				
+		</Attribute>		
+	</Element>	
+	<Element elementName="GestionRessourcesSysteme">
+		<Attribute attributeName="RessourceSysteme">
+			<EnumeratedValues>
+				<Content contentName="MEMOIRE">
+					<Alias>
+						<FR>MEMOIRE</FR>
+						<EN>MEMORY</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="CPU">
+					<Alias>
+						<FR>CPU</FR>
+					</Alias>
+				</Content>					
+			</EnumeratedValues>				
+		</Attribute>		
+	</Element>	
+	<Element elementName="AutorisePassageVeille">
+		<Attribute attributeName="mode">	
+			<EnumeratedValues>
+				<Content contentName="OUI">
+					<Alias>
+						<FR>OUI</FR>
+						<EN>YES</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="NON">
+					<Alias>
+						<FR>NON</FR>
+						<EN>NO</EN>
+					</Alias>
+				</Content>					
+			</EnumeratedValues>				
+		</Attribute>		
+	</Element>		
+	<Element elementName="phrasext">
+		<Attribute attributeName="site">
+			<EnumeratedValues>
+				<Content contentName="AULNAY">
+					<Alias>
+						<FR>AULNAY</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="EURO">
+					<Alias>
+						<FR>EURO</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="MADRID">
+					<Alias>
+						<FR>MADRID</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="MULHOU">
+					<Alias>
+						<FR>MULHOU</FR>
+					</Alias>
+				</Content>
+				<Content contentName="PF">
+					<Alias>
+						<FR>PF</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="POISSY">
+					<Alias>
+						<FR>POISSY</FR>
+					</Alias>
+				</Content>
+				<Content contentName="RENNES">
+					<Alias>
+						<FR>RENNES</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="RYTON">
+					<Alias>
+						<FR>RYTON</FR>
+					</Alias>
+				</Content>
+				<Content contentName="SEVELN">
+					<Alias>
+						<FR>SEVELN</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="USOCHA">
+					<Alias>
+						<FR>USOCHA</FR>
+					</Alias>
+				</Content>
+				<Content contentName="VIGO">
+					<Alias>
+						<FR>VIGO</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="OACTIA">
+					<Alias>
+						<FR>OACTIA</FR>
+					</Alias>
+				</Content>				
+			</EnumeratedValues>				
+		</Attribute>		
+	</Element>		
+	<Element elementName="ImprimeBuffer">
+		<Attribute attributeName="NumImprimante">
+			<EnumeratedValues>
+				<Content contentName="1">
+					<Alias>
+						<FR>1</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="2">
+					<Alias>
+						<FR>2</FR>
+					</Alias>
+				</Content>					
+			</EnumeratedValues>				
+		</Attribute>			
+		<Attribute attributeName="Moyen">
+			<EnumeratedValues>
+				<Content contentName="Radio">
+					<Alias>
+						<FR>Radio</FR>
+						<EN>Wireless</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="Filaire">
+					<Alias>
+						<FR>Filaire</FR>
+						<EN>Wire</EN>
+					</Alias>
+				</Content>					
+			</EnumeratedValues>				
+		</Attribute>		
+	</Element>		
+	<Element elementName="VideBuffer">
+		<Attribute attributeName="Fichier">
+			<EnumeratedValues>
+				<Content contentName="Local">
+					<Alias>
+						<FR>Local</FR>
+						<EN>Local</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="Global">
+					<Alias>
+						<FR>Global</FR>
+						<EN>Global</EN>
+					</Alias>
+				</Content>					
+			</EnumeratedValues>				
+		</Attribute>		
+	</Element>		
+	<Element elementName="CodeABarre">
+		<Attribute attributeName="Format">
+			<EnumeratedValues>
+				<Content contentName="1D">
+					<Alias>
+						<FR>1D</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="2D">
+					<Alias>
+						<FR>2D</FR>
+					</Alias>
+				</Content>					
+			</EnumeratedValues>				
+		</Attribute>		
+	</Element>	
+	<Element elementName="ImprimeFichier">
+		<Attribute attributeName="Fichier">
+			<EnumeratedValues>
+				<Content contentName="TOUS">
+					<Alias>
+						<FR>TOUS</FR>
+						<EN>ALL</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="DERNIER">
+					<Alias>
+						<FR>DERNIER</FR>
+						<EN>LAST</EN>
+					</Alias>
+				</Content>					
+			</EnumeratedValues>				
+		</Attribute>		
+	</Element>	
+	<Element elementName="Alignement">
+		<Attribute attributeName="Type">
+			<EnumeratedValues>
+				<Content contentName="GAUCHE">
+					<Alias>
+						<FR>GAUCHE</FR>
+						<EN>LEFT</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="DROITE">
+					<Alias>
+						<FR>DROITE</FR>
+						<EN>RIGHT</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="CENTRE">
+					<Alias>
+						<FR>CENTRE</FR>
+						<EN>CENTER</EN>
+					</Alias>
+				</Content>					
+			</EnumeratedValues>				
+		</Attribute>		
+	</Element>	
+	<Element elementName="Validation">
+		<Attribute attributeName="nom">
+			<EnumeratedValues>
+				<Content contentName="OK">
+					<Alias>
+						<FR>OK</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="OKCANCEL">
+					<Alias>
+						<FR>OKCANCEL</FR>
+					</Alias>
+				</Content>						
+			</EnumeratedValues>				
+		</Attribute>		
+	</Element>	
+	<Element elementName="Reset">
+		<Attribute attributeName="Type">
+			<EnumeratedValues>
+				<Content contentName="Moyen">
+					<Alias>
+						<FR>Moyen</FR>
+						<EN>Hardware</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="Gamme">
+					<Alias>
+						<FR>Gamme</FR>
+						<EN>TaskTestSequence</EN>
+					</Alias>
+				</Content>						
+			</EnumeratedValues>				
+		</Attribute>		
+	</Element>	
+	<Element elementName="EtiquetteBalogh">
+		<Attribute attributeName="nom">
+			<EnumeratedValues>
+				<Content contentName="CodeTravailOdissee">
+					<Alias>
+						<FR>CodeTravailOdissee</FR>
+						<EN>OdisseeWorkCode</EN>
+					</Alias>
+				</Content>							
+			</EnumeratedValues>				
+		</Attribute>		
+	</Element>	
+	<Element elementName="SaisieCABRadioOuFilaire">
+		<Attribute attributeName="Moyen">
+			<EnumeratedValues>
+				<Content contentName="Radio">
+					<Alias>
+						<FR>Radio</FR>
+						<EN>Wireless</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="Filaire">
+					<Alias>
+						<FR>Filaire</FR>
+						<EN>Wire</EN>
+					</Alias>
+				</Content>						
+			</EnumeratedValues>				
+		</Attribute>		
+	</Element>				
+	<Element elementName="ServiceLib">
+		<Attribute attributeName="nom">
+			<EnumeratedValues>
+				<Content contentName="DecodeVehicule">
+					<Alias>
+						<FR>DecodeVehicule</FR>
+						<EN>VehicleCode</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="DecodeGenerique">
+					<Alias>
+						<FR>DecodeGenerique</FR>
+						<EN>GenericCode</EN>
+					</Alias>
+				</Content>	
+				<Content contentName="RAZDescr">
+					<Alias>
+						<FR>RAZDescr</FR>
+						<EN>EraseDescr</EN>
+					</Alias>
+				</Content>				
+			</EnumeratedValues>				
+		</Attribute>		
+	</Element>		
+	<Element elementName="Variable">
+		<Attribute attributeName="nom">
+			<EnumeratedValues>
+				<Content contentName="V0">
+					<Alias>
+						<FR>V0</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V1">
+					<Alias>
+						<FR>V1</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V2">
+					<Alias>
+						<FR>V2</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V3">
+					<Alias>
+						<FR>V3</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V4">
+					<Alias>
+						<FR>V4</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V5">
+					<Alias>
+						<FR>V5</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V6">
+					<Alias>
+						<FR>V6</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V7">
+					<Alias>
+						<FR>V7</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V8">
+					<Alias>
+						<FR>V8</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V9">
+					<Alias>
+						<FR>V9</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V10">
+					<Alias>
+						<FR>V10</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V11">
+					<Alias>
+						<FR>V11</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V12">
+					<Alias>
+						<FR>V12</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V13">
+					<Alias>
+						<FR>V13</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V14">
+					<Alias>
+						<FR>V14</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V15">
+					<Alias>
+						<FR>V15</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V16">
+					<Alias>
+						<FR>V16</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V17">
+					<Alias>
+						<FR>V17</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V18">
+					<Alias>
+						<FR>V18</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V19">
+					<Alias>
+						<FR>V19</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V20">
+					<Alias>
+						<FR>V20</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V21">
+					<Alias>
+						<FR>V21</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V22">
+					<Alias>
+						<FR>V22</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V23">
+					<Alias>
+						<FR>V23</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V24">
+					<Alias>
+						<FR>V24</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V25">
+					<Alias>
+						<FR>V25</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V26">
+					<Alias>
+						<FR>V26</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V27">
+					<Alias>
+						<FR>V27</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V28">
+					<Alias>
+						<FR>V28</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V29">
+					<Alias>
+						<FR>V29</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V30">
+					<Alias>
+						<FR>V30</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V31">
+					<Alias>
+						<FR>V31</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V32">
+					<Alias>
+						<FR>V32</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V33">
+					<Alias>
+						<FR>V33</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V34">
+					<Alias>
+						<FR>V34</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V35">
+					<Alias>
+						<FR>V35</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V36">
+					<Alias>
+						<FR>V36</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V37">
+					<Alias>
+						<FR>V37</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V38">
+					<Alias>
+						<FR>V38</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V39">
+					<Alias>
+						<FR>V39</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V40">
+					<Alias>
+						<FR>V40</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V41">
+					<Alias>
+						<FR>V41</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V42">
+					<Alias>
+						<FR>V42</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V43">
+					<Alias>
+						<FR>V43</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V44">
+					<Alias>
+						<FR>V44</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V45">
+					<Alias>
+						<FR>V45</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V46">
+					<Alias>
+						<FR>V46</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V47">
+					<Alias>
+						<FR>V47</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V48">
+					<Alias>
+						<FR>V48</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V49">
+					<Alias>
+						<FR>V49</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V50">
+					<Alias>
+						<FR>V50</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V51">
+					<Alias>
+						<FR>V51</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V52">
+					<Alias>
+						<FR>V52</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V53">
+					<Alias>
+						<FR>V53</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V54">
+					<Alias>
+						<FR>V54</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V55">
+					<Alias>
+						<FR>V55</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V56">
+					<Alias>
+						<FR>V56</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V57">
+					<Alias>
+						<FR>V57</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V58">
+					<Alias>
+						<FR>V58</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V59">
+					<Alias>
+						<FR>V59</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V60">
+					<Alias>
+						<FR>V60</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V61">
+					<Alias>
+						<FR>V61</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V62">
+					<Alias>
+						<FR>V62</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V63">
+					<Alias>
+						<FR>V63</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V64">
+					<Alias>
+						<FR>V64</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V65">
+					<Alias>
+						<FR>V65</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V66">
+					<Alias>
+						<FR>V66</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V67">
+					<Alias>
+						<FR>V67</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V68">
+					<Alias>
+						<FR>V68</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V69">
+					<Alias>
+						<FR>V69</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V70">
+					<Alias>
+						<FR>V70</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V71">
+					<Alias>
+						<FR>V71</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V72">
+					<Alias>
+						<FR>V72</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V73">
+					<Alias>
+						<FR>V73</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V74">
+					<Alias>
+						<FR>V74</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V75">
+					<Alias>
+						<FR>V75</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V76">
+					<Alias>
+						<FR>V76</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V77">
+					<Alias>
+						<FR>V77</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V78">
+					<Alias>
+						<FR>V78</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V79">
+					<Alias>
+						<FR>V79</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V80">
+					<Alias>
+						<FR>V80</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V81">
+					<Alias>
+						<FR>V81</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V82">
+					<Alias>
+						<FR>V82</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V83">
+					<Alias>
+						<FR>V83</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V84">
+					<Alias>
+						<FR>V84</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V85">
+					<Alias>
+						<FR>V85</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V86">
+					<Alias>
+						<FR>V86</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V87">
+					<Alias>
+						<FR>V87</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V88">
+					<Alias>
+						<FR>V88</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V89">
+					<Alias>
+						<FR>V89</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V90">
+					<Alias>
+						<FR>V90</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V91">
+					<Alias>
+						<FR>V91</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V92">
+					<Alias>
+						<FR>V92</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V93">
+					<Alias>
+						<FR>V93</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V94">
+					<Alias>
+						<FR>V94</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V95">
+					<Alias>
+						<FR>V95</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V96">
+					<Alias>
+						<FR>V96</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V97">
+					<Alias>
+						<FR>V97</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V98">
+					<Alias>
+						<FR>V98</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V99">
+					<Alias>
+						<FR>V99</FR>
+					</Alias>
+				</Content>				
+				<Content contentName="V100">
+					<Alias>
+						<FR>V100</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V101">
+					<Alias>
+						<FR>V101</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V102">
+					<Alias>
+						<FR>V102</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V103">
+					<Alias>
+						<FR>V103</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V104">
+					<Alias>
+						<FR>V104</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V105">
+					<Alias>
+						<FR>V105</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V106">
+					<Alias>
+						<FR>V106</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V107">
+					<Alias>
+						<FR>V107</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V108">
+					<Alias>
+						<FR>V108</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V109">
+					<Alias>
+						<FR>V109</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V110">
+					<Alias>
+						<FR>V110</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V111">
+					<Alias>
+						<FR>V111</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V112">
+					<Alias>
+						<FR>V112</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V113">
+					<Alias>
+						<FR>V113</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V114">
+					<Alias>
+						<FR>V114</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V115">
+					<Alias>
+						<FR>V115</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V116">
+					<Alias>
+						<FR>V116</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V117">
+					<Alias>
+						<FR>V117</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V118">
+					<Alias>
+						<FR>V118</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V119">
+					<Alias>
+						<FR>V119</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V120">
+					<Alias>
+						<FR>V120</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V121">
+					<Alias>
+						<FR>V121</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V122">
+					<Alias>
+						<FR>V122</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V123">
+					<Alias>
+						<FR>V123</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V124">
+					<Alias>
+						<FR>V124</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V125">
+					<Alias>
+						<FR>V125</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V126">
+					<Alias>
+						<FR>V126</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V127">
+					<Alias>
+						<FR>V127</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V128">
+					<Alias>
+						<FR>V128</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V129">
+					<Alias>
+						<FR>V129</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V130">
+					<Alias>
+						<FR>V130</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V131">
+					<Alias>
+						<FR>V131</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V132">
+					<Alias>
+						<FR>V132</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V133">
+					<Alias>
+						<FR>V133</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V134">
+					<Alias>
+						<FR>V134</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V135">
+					<Alias>
+						<FR>V135</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V136">
+					<Alias>
+						<FR>V136</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V137">
+					<Alias>
+						<FR>V137</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V138">
+					<Alias>
+						<FR>V138</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V139">
+					<Alias>
+						<FR>V139</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V140">
+					<Alias>
+						<FR>V140</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V141">
+					<Alias>
+						<FR>V141</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V142">
+					<Alias>
+						<FR>V142</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V143">
+					<Alias>
+						<FR>V143</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V144">
+					<Alias>
+						<FR>V144</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V145">
+					<Alias>
+						<FR>V145</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V146">
+					<Alias>
+						<FR>V146</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V147">
+					<Alias>
+						<FR>V147</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V148">
+					<Alias>
+						<FR>V148</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V149">
+					<Alias>
+						<FR>V149</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V150">
+					<Alias>
+						<FR>V150</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V151">
+					<Alias>
+						<FR>V151</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V152">
+					<Alias>
+						<FR>V152</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V153">
+					<Alias>
+						<FR>V153</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V154">
+					<Alias>
+						<FR>V154</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V155">
+					<Alias>
+						<FR>V155</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V156">
+					<Alias>
+						<FR>V156</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V157">
+					<Alias>
+						<FR>V157</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V158">
+					<Alias>
+						<FR>V158</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V159">
+					<Alias>
+						<FR>V159</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V160">
+					<Alias>
+						<FR>V160</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V161">
+					<Alias>
+						<FR>V161</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V162">
+					<Alias>
+						<FR>V162</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V163">
+					<Alias>
+						<FR>V163</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V164">
+					<Alias>
+						<FR>V164</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V165">
+					<Alias>
+						<FR>V165</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V166">
+					<Alias>
+						<FR>V166</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V167">
+					<Alias>
+						<FR>V167</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V168">
+					<Alias>
+						<FR>V168</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V169">
+					<Alias>
+						<FR>V169</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V170">
+					<Alias>
+						<FR>V170</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V171">
+					<Alias>
+						<FR>V171</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V172">
+					<Alias>
+						<FR>V172</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V173">
+					<Alias>
+						<FR>V173</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V174">
+					<Alias>
+						<FR>V174</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V175">
+					<Alias>
+						<FR>V175</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V176">
+					<Alias>
+						<FR>V176</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V177">
+					<Alias>
+						<FR>V177</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V178">
+					<Alias>
+						<FR>V178</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V179">
+					<Alias>
+						<FR>V179</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V180">
+					<Alias>
+						<FR>V180</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V181">
+					<Alias>
+						<FR>V181</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V182">
+					<Alias>
+						<FR>V182</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V183">
+					<Alias>
+						<FR>V183</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V184">
+					<Alias>
+						<FR>V184</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V185">
+					<Alias>
+						<FR>V185</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V186">
+					<Alias>
+						<FR>V186</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V187">
+					<Alias>
+						<FR>V187</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V188">
+					<Alias>
+						<FR>V188</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V189">
+					<Alias>
+						<FR>V189</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V190">
+					<Alias>
+						<FR>V190</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="V191">
+					<Alias>
+						<FR>V191</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V192">
+					<Alias>
+						<FR>V192</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V193">
+					<Alias>
+						<FR>V193</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V194">
+					<Alias>
+						<FR>V194</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V195">
+					<Alias>
+						<FR>V195</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V196">
+					<Alias>
+						<FR>V196</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V197">
+					<Alias>
+						<FR>V197</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V198">
+					<Alias>
+						<FR>V198</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="V199">
+					<Alias>
+						<FR>V199</FR>
+					</Alias>
+				</Content>			
+				<Content contentName="CODETRAITEMENTMESSAGERIE">
+					<Alias>
+						<FR>CODETRAITEMENTMESSAGERIE</FR>
+						<EN>CODEMESSAGESYSTEM</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="COUPURE">
+					<Alias>
+						<FR>COUPURE</FR>
+						<EN>UNPLUG</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="ETATTELEDISTRIBUTION">
+					<Alias>
+						<FR>ETATTELEDISTRIBUTION</FR>
+						<EN>UPDATESTATUS</EN>
+					</Alias>
+				</Content>	
+				<Content contentName="MODEFONCTIONNEMENT">
+					<Alias>
+						<FR>MODEFONCTIONNEMENT</FR>
+						<EN>RUNNINGMODE</EN>
+					</Alias>
+				</Content>	
+				<Content contentName="MODEUTILISATION">
+					<Alias>
+						<FR>MODEUTILISATION</FR>
+						<EN>USINGMODE</EN>
+					</Alias>
+				</Content>	
+				<Content contentName="NBRECABDANSGRP">
+					<Alias>
+						<FR>NBRECABDANSGRP</FR>
+						<EN>NBRECABINGRP</EN>
+					</Alias>
+				</Content>	
+				<Content contentName="NUMCABDANSGRP">
+					<Alias>
+						<FR>NUMCABDANSGRP</FR>
+						<EN>NUMCABINGROUP</EN>
+					</Alias>
+				</Content>	
+				<Content contentName="NUMGRPCAB">
+					<Alias>
+						<FR>NUMGRPCAB</FR>
+						<EN>NUMGRPCAB</EN>
+					</Alias>
+				</Content>	
+				<Content contentName="NUMODISSEE">
+					<Alias>
+						<FR>NUMODISSEE</FR>
+						<EN>TOOL_NUMBER</EN>
+					</Alias>
+				</Content>	
+				<Content contentName="RESUMEPRESENCEDEFAUTSSQIP">
+					<Alias>
+						<FR>RESUMEPRESENCEDEFAUTSSQIP</FR>
+						<EN>RESUMEPRESENCEDEFAUTSSQIP</EN>
+					</Alias>
+				</Content>	
+				<Content contentName="TEMPSCYCLE">
+					<Alias>
+						<FR>TEMPSCYCLE</FR>
+						<EN>CYCLETIME</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="VCANERR">
+					<Alias>
+						<FR>VCANERR</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="VCHK">
+					<Alias>
+						<FR>VCHK</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="VMEM">
+					<Alias>
+						<FR>VMEM</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="VMES">
+					<Alias>
+						<FR>VMES</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="VMESERR">
+					<Alias>
+						<FR>VMESERR</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="VREF">
+					<Alias>
+						<FR>VREF</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="VMIN">
+					<Alias>
+						<FR>VMIN</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="VMAX">
+					<Alias>
+						<FR>VMAX</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="IREF1">
+					<Alias>
+						<FR>IREF1</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="IREF2">
+					<Alias>
+						<FR>IREF2</FR>
+					</Alias>
+				</Content>						
+			</EnumeratedValues>				
+		</Attribute>		
+	</Element>		
+	<Element elementName="VariableGlobale">
+		<Attribute attributeName="nom">
+			<EnumeratedValues>
+				<Content contentName="G0">
+					<Alias>
+						<FR>G0</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G1">
+					<Alias>
+						<FR>G1</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G2">
+					<Alias>
+						<FR>G2</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G3">
+					<Alias>
+						<FR>G3</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G4">
+					<Alias>
+						<FR>G4</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G5">
+					<Alias>
+						<FR>G5</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G6">
+					<Alias>
+						<FR>G6</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G7">
+					<Alias>
+						<FR>G7</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G8">
+					<Alias>
+						<FR>G8</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G9">
+					<Alias>
+						<FR>G9</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G10">
+					<Alias>
+						<FR>G10</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G11">
+					<Alias>
+						<FR>G11</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G12">
+					<Alias>
+						<FR>G12</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G13">
+					<Alias>
+						<FR>G13</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G14">
+					<Alias>
+						<FR>G14</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G15">
+					<Alias>
+						<FR>G15</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G16">
+					<Alias>
+						<FR>G16</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G17">
+					<Alias>
+						<FR>G17</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G18">
+					<Alias>
+						<FR>G18</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G19">
+					<Alias>
+						<FR>G19</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G20">
+					<Alias>
+						<FR>G20</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G21">
+					<Alias>
+						<FR>G21</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G22">
+					<Alias>
+						<FR>G22</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G23">
+					<Alias>
+						<FR>G23</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G24">
+					<Alias>
+						<FR>G24</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G25">
+					<Alias>
+						<FR>G25</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G26">
+					<Alias>
+						<FR>G26</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G27">
+					<Alias>
+						<FR>G27</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G28">
+					<Alias>
+						<FR>G28</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G29">
+					<Alias>
+						<FR>G29</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G30">
+					<Alias>
+						<FR>G30</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G31">
+					<Alias>
+						<FR>G31</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G32">
+					<Alias>
+						<FR>G32</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G33">
+					<Alias>
+						<FR>G33</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G34">
+					<Alias>
+						<FR>G34</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G35">
+					<Alias>
+						<FR>G35</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G36">
+					<Alias>
+						<FR>G36</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G37">
+					<Alias>
+						<FR>G37</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G38">
+					<Alias>
+						<FR>G38</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G39">
+					<Alias>
+						<FR>G39</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G40">
+					<Alias>
+						<FR>G40</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G41">
+					<Alias>
+						<FR>G41</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G42">
+					<Alias>
+						<FR>G42</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G43">
+					<Alias>
+						<FR>G43</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G44">
+					<Alias>
+						<FR>G44</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G45">
+					<Alias>
+						<FR>G45</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G46">
+					<Alias>
+						<FR>G46</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G47">
+					<Alias>
+						<FR>G47</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G48">
+					<Alias>
+						<FR>G48</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G49">
+					<Alias>
+						<FR>G49</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G50">
+					<Alias>
+						<FR>G50</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G51">
+					<Alias>
+						<FR>G51</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G52">
+					<Alias>
+						<FR>G52</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G53">
+					<Alias>
+						<FR>G53</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G54">
+					<Alias>
+						<FR>G54</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G55">
+					<Alias>
+						<FR>G55</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G56">
+					<Alias>
+						<FR>G56</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G57">
+					<Alias>
+						<FR>G57</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G58">
+					<Alias>
+						<FR>G58</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G59">
+					<Alias>
+						<FR>G59</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G60">
+					<Alias>
+						<FR>G60</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G61">
+					<Alias>
+						<FR>G61</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G62">
+					<Alias>
+						<FR>G62</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G63">
+					<Alias>
+						<FR>G63</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G64">
+					<Alias>
+						<FR>G64</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G65">
+					<Alias>
+						<FR>G65</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G66">
+					<Alias>
+						<FR>G66</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G67">
+					<Alias>
+						<FR>G67</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G68">
+					<Alias>
+						<FR>G68</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G69">
+					<Alias>
+						<FR>G69</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G70">
+					<Alias>
+						<FR>G70</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G71">
+					<Alias>
+						<FR>G71</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G72">
+					<Alias>
+						<FR>G72</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G73">
+					<Alias>
+						<FR>G73</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G74">
+					<Alias>
+						<FR>G74</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G75">
+					<Alias>
+						<FR>G75</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G76">
+					<Alias>
+						<FR>G76</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G77">
+					<Alias>
+						<FR>G77</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G78">
+					<Alias>
+						<FR>G78</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G79">
+					<Alias>
+						<FR>G79</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G80">
+					<Alias>
+						<FR>G80</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G81">
+					<Alias>
+						<FR>G81</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G82">
+					<Alias>
+						<FR>G82</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G83">
+					<Alias>
+						<FR>G83</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G84">
+					<Alias>
+						<FR>G84</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G85">
+					<Alias>
+						<FR>G85</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G86">
+					<Alias>
+						<FR>G86</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G87">
+					<Alias>
+						<FR>G87</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G88">
+					<Alias>
+						<FR>G88</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G89">
+					<Alias>
+						<FR>G89</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G90">
+					<Alias>
+						<FR>G90</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G91">
+					<Alias>
+						<FR>G91</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G92">
+					<Alias>
+						<FR>G92</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G93">
+					<Alias>
+						<FR>G93</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G94">
+					<Alias>
+						<FR>G94</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G95">
+					<Alias>
+						<FR>G95</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G96">
+					<Alias>
+						<FR>G96</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G97">
+					<Alias>
+						<FR>G97</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G98">
+					<Alias>
+						<FR>G98</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G99">
+					<Alias>
+						<FR>G99</FR>
+					</Alias>
+				</Content>				
+				<Content contentName="G100">
+					<Alias>
+						<FR>G100</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G101">
+					<Alias>
+						<FR>G101</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G102">
+					<Alias>
+						<FR>G102</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G103">
+					<Alias>
+						<FR>G103</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G104">
+					<Alias>
+						<FR>G104</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G105">
+					<Alias>
+						<FR>G105</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G106">
+					<Alias>
+						<FR>G106</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G107">
+					<Alias>
+						<FR>G107</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G108">
+					<Alias>
+						<FR>G108</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G109">
+					<Alias>
+						<FR>G109</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G110">
+					<Alias>
+						<FR>G110</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G111">
+					<Alias>
+						<FR>G111</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G112">
+					<Alias>
+						<FR>G112</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G113">
+					<Alias>
+						<FR>G113</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G114">
+					<Alias>
+						<FR>G114</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G115">
+					<Alias>
+						<FR>G115</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G116">
+					<Alias>
+						<FR>G116</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G117">
+					<Alias>
+						<FR>G117</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G118">
+					<Alias>
+						<FR>G118</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G119">
+					<Alias>
+						<FR>G119</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G120">
+					<Alias>
+						<FR>G120</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G121">
+					<Alias>
+						<FR>G121</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G122">
+					<Alias>
+						<FR>G122</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G123">
+					<Alias>
+						<FR>G123</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G124">
+					<Alias>
+						<FR>G124</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G125">
+					<Alias>
+						<FR>G125</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G126">
+					<Alias>
+						<FR>G126</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G127">
+					<Alias>
+						<FR>G127</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G128">
+					<Alias>
+						<FR>G128</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G129">
+					<Alias>
+						<FR>G129</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G130">
+					<Alias>
+						<FR>G130</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G131">
+					<Alias>
+						<FR>G131</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G132">
+					<Alias>
+						<FR>G132</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G133">
+					<Alias>
+						<FR>G133</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G134">
+					<Alias>
+						<FR>G134</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G135">
+					<Alias>
+						<FR>G135</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G136">
+					<Alias>
+						<FR>G136</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G137">
+					<Alias>
+						<FR>G137</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G138">
+					<Alias>
+						<FR>G138</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G139">
+					<Alias>
+						<FR>G139</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G140">
+					<Alias>
+						<FR>G140</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G141">
+					<Alias>
+						<FR>G141</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G142">
+					<Alias>
+						<FR>G142</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G143">
+					<Alias>
+						<FR>G143</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G144">
+					<Alias>
+						<FR>G144</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G145">
+					<Alias>
+						<FR>G145</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G146">
+					<Alias>
+						<FR>G146</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G147">
+					<Alias>
+						<FR>G147</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G148">
+					<Alias>
+						<FR>G148</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G149">
+					<Alias>
+						<FR>G149</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G150">
+					<Alias>
+						<FR>G150</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G151">
+					<Alias>
+						<FR>G151</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G152">
+					<Alias>
+						<FR>G152</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G153">
+					<Alias>
+						<FR>G153</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G154">
+					<Alias>
+						<FR>G154</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G155">
+					<Alias>
+						<FR>G155</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G156">
+					<Alias>
+						<FR>G156</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G157">
+					<Alias>
+						<FR>G157</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G158">
+					<Alias>
+						<FR>G158</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G159">
+					<Alias>
+						<FR>G159</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G160">
+					<Alias>
+						<FR>G160</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G161">
+					<Alias>
+						<FR>G161</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G162">
+					<Alias>
+						<FR>G162</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G163">
+					<Alias>
+						<FR>G163</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G164">
+					<Alias>
+						<FR>G164</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G165">
+					<Alias>
+						<FR>G165</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G166">
+					<Alias>
+						<FR>G166</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G167">
+					<Alias>
+						<FR>G167</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G168">
+					<Alias>
+						<FR>G168</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G169">
+					<Alias>
+						<FR>G169</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G170">
+					<Alias>
+						<FR>G170</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G171">
+					<Alias>
+						<FR>G171</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G172">
+					<Alias>
+						<FR>G172</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G173">
+					<Alias>
+						<FR>G173</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G174">
+					<Alias>
+						<FR>G174</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G175">
+					<Alias>
+						<FR>G175</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G176">
+					<Alias>
+						<FR>G176</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G177">
+					<Alias>
+						<FR>G177</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G178">
+					<Alias>
+						<FR>G178</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G179">
+					<Alias>
+						<FR>G179</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G180">
+					<Alias>
+						<FR>G180</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G181">
+					<Alias>
+						<FR>G181</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G182">
+					<Alias>
+						<FR>G182</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G183">
+					<Alias>
+						<FR>G183</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G184">
+					<Alias>
+						<FR>G184</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G185">
+					<Alias>
+						<FR>G185</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G186">
+					<Alias>
+						<FR>G186</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G187">
+					<Alias>
+						<FR>G187</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G188">
+					<Alias>
+						<FR>G188</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G189">
+					<Alias>
+						<FR>G189</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G190">
+					<Alias>
+						<FR>G190</FR>
+					</Alias>
+				</Content>		
+				<Content contentName="G191">
+					<Alias>
+						<FR>G191</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G192">
+					<Alias>
+						<FR>G192</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G193">
+					<Alias>
+						<FR>G193</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G194">
+					<Alias>
+						<FR>G194</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G195">
+					<Alias>
+						<FR>G195</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G196">
+					<Alias>
+						<FR>G196</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G197">
+					<Alias>
+						<FR>G197</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G198">
+					<Alias>
+						<FR>G198</FR>
+					</Alias>
+				</Content>	
+				<Content contentName="G199">
+					<Alias>
+						<FR>G199</FR>
+					</Alias>
+				</Content>			
+				<Content contentName="VMNEMOERREUR">
+					<Alias>
+						<FR>VMNEMOERREUR</FR>
+						<EN>VMNEMOERREUR</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="TYPE_MOYEN">
+					<Alias>
+						<FR>TYPE_MOYEN</FR>
+						<EN>KIND_TOOL</EN>
+					</Alias>
+				</Content>						
+			</EnumeratedValues>				
+		</Attribute>		
+	</Element>			
+	<Element elementName="ValeurStandard">
+		<Attribute attributeName="nom">
+			<EnumeratedValues>
+				<Content contentName="TRUE">
+					<Alias>
+						<FR>TRUE</FR>
+						<EN>TRUE</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="FALSE">
+					<Alias>
+						<FR>FALSE</FR>
+						<EN>FALSE</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="SUCCESS">
+					<Alias>
+						<FR>SUCCESS</FR>
+						<EN>SUCCESS</EN>
+					</Alias>
+				</Content>					
+			</EnumeratedValues>				
+		</Attribute>		
+	</Element>		
+	<Element elementName="Mnemonique">
+		<Attribute attributeName="Conversion">
+			<Alias>
+				<FR>Conversion</FR>
+				<EN>Conversion</EN>	
+			</Alias>	
+			<EnumeratedValues>
+				<Content contentName="SansConversion">
+					<Alias>
+						<FR>SansConversion</FR>
+						<EN>WithoutConversion</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="HexaCodeASCIIVersHexa">
+					<Alias>
+						<FR>HexaCodeASCIIVersHexa</FR>
+						<EN>HexaCodeASCIIToHexa</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="BinCodeASCIIVersBIN">
+					<Alias>
+						<FR>BinCodeASCIIVersBIN</FR>
+						<EN>BinCodeASCIIToBIN</EN>
+					</Alias>
+				</Content>					
+			</EnumeratedValues>				
+		</Attribute>		
+	</Element>			
+	<Element elementName="ConversionMnemonique">
+		<Attribute attributeName="Conversion">
+			<EnumeratedValues>
+				<Content contentName="SansConversion">
+					<Alias>
+						<FR>SansConversion</FR>
+						<EN>WithoutConversion</EN>	
+					</Alias>
+				</Content>		
+				<Content contentName="HexaCodeASCIIVersHexa">
+					<Alias>
+						<FR>HexaCodeASCIIVersHexa</FR>
+						<EN>HexaCodeASCIIToHexa</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="BinCodeASCIIVersBIN">
+					<Alias>
+						<FR>BinCodeASCIIVersBIN</FR>
+						<EN>BinCodeASCIIToBIN</EN>
+					</Alias>
+				</Content>					
+			</EnumeratedValues>				
+		</Attribute>		
+	</Element>			
+	<Element elementName="TestVariable">
+		<Attribute attributeName="nom">
+			<EnumeratedValues>
+				<Content contentName="EGAL">
+					<Alias>
+						<FR>EGAL</FR>
+						<EN>EQUAL</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="INF">
+					<Alias>
+						<FR>INF</FR>
+						<EN>INF</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="SUP">
+					<Alias>
+						<FR>SUP</FR>
+						<EN>SUP</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="INFEGAL">
+					<Alias>
+						<FR>INFEGAL</FR>
+						<EN>INF_EQUAL</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="SUPEGAL">
+					<Alias>
+						<FR>SUPEGAL</FR>
+						<EN>SUP_EQUAL</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="DIFFERENT">
+					<Alias>
+						<FR>DIFFERENT</FR>
+						<EN>NOT_EQUAL</EN>
+					</Alias>
+				</Content>					
+			</EnumeratedValues>				
+		</Attribute>		
+	</Element>			
+	<Element elementName="TestBuffer">
+		<Attribute attributeName="nom">
+			<EnumeratedValues>
+				<Content contentName="EGAL">
+					<Alias>
+						<FR>EGAL</FR>
+						<EN>EQUAL</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="INF">
+					<Alias>
+						<FR>INF</FR>
+						<EN>INF</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="SUP">
+					<Alias>
+						<FR>SUP</FR>
+						<EN>SUP</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="INFEGAL">
+					<Alias>
+						<FR>INFEGAL</FR>
+						<EN>INF_EQUAL</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="SUPEGAL">
+					<Alias>
+						<FR>SUPEGAL</FR>
+						<EN>SUP_EQUAL</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="DIFFERENT">
+					<Alias>
+						<FR>DIFFERENT</FR>
+						<EN>NOT_EQUAL</EN>
+					</Alias>
+				</Content>					
+			</EnumeratedValues>				
+		</Attribute>		
+	</Element>
+	<Element elementName="TestMultiple">
+		<Attribute attributeName="Operateur">
+			<EnumeratedValues>
+				<Content contentName="ET">
+					<Alias>
+						<FR>ET</FR>
+						<EN>AND</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="OU">
+					<Alias>
+						<FR>OU</FR>
+						<EN>OR</EN>
+					</Alias>
+				</Content>						
+			</EnumeratedValues>				
+		</Attribute>			
+	</Element>	
+	<Element elementName="InitMesure">
+		<Attribute attributeName="gamme">	
+			<EnumeratedValues>
+				<Content contentName="CourantFort">
+					<Alias>
+						<FR>CourantFort</FR>
+						<EN>HightCurrent</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="CourantFaible">
+					<Alias>
+						<FR>CourantFaible</FR>
+						<EN>LowCurrent</EN>
+					</Alias>
+				</Content>						
+			</EnumeratedValues>				
+		</Attribute>			
+	</Element>	
+	<Element elementName="Filtre">
+		<Attribute attributeName="Type">
+			<EnumeratedValues>
+				<Content contentName="PASSEBAS">
+					<Alias>
+						<FR>PASSEBAS</FR>
+						<EN>LOWPASS</EN>
+					</Alias>
+				</Content>							
+			</EnumeratedValues>				
+		</Attribute>		
+		<Attribute attributeName="Ordre">
+			<EnumeratedValues>
+				<Content contentName="1">
+					<Alias>
+						<FR>1</FR>
+						<EN>1</EN>
+					</Alias>
+				</Content>							
+			</EnumeratedValues>				
+		</Attribute>			
+	</Element>		
+	<Element elementName="DefautsSpecifiques">
+		<Attribute attributeName="StatutDefaut">
+			<EnumeratedValues>
+				<Content contentName="Permanent">
+					<Alias>
+						<FR>Permanent</FR>
+						<EN>Permanent</EN>	
+					</Alias>
+				</Content>		
+				<Content contentName="Fugitif">
+					<Alias>
+						<FR>Fugitif</FR>
+						<EN>Fugitive</EN>	
+					</Alias>
+				</Content>					
+			</EnumeratedValues>				
+		</Attribute>		
+		<Attribute attributeName="EtatDefaut">
+			<EnumeratedValues>
+				<Content contentName="NonFiltre">
+					<Alias>
+						<FR>NonFiltre</FR>
+						<EN>WithoutFilter</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="Filtre">
+					<Alias>
+						<FR>Filtre</FR>
+						<EN>WithFilter</EN>
+					</Alias>
+				</Content>					
+			</EnumeratedValues>				
+		</Attribute>			
+	</Element>			
+	<Element elementName="StatResultat">	
+		<Attribute attributeName="Resultat">
+			<EnumeratedValues>
+				<Content contentName="OK">
+					<Alias>
+						<FR>OK</FR>
+						<EN>OK</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="NOK">
+					<Alias>
+						<FR>NOK</FR>
+						<EN>NOK</EN>
+					</Alias>
+				</Content>					
+			</EnumeratedValues>				
+		</Attribute>					
+	</Element>		
+	<Element elementName="InitTraceECU">
+		<Attribute attributeName="Ligne">	
+			<EnumeratedValues>
+				<Content contentName="K3">
+					<Alias>
+						<FR>K3</FR>
+						<EN>K3</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="K4">
+					<Alias>
+						<FR>K4</FR>
+						<EN>K4</EN>
+					</Alias>
+				</Content>	
+				<Content contentName="K6">
+					<Alias>
+						<FR>K6</FR>
+						<EN>K6</EN>
+					</Alias>
+				</Content>		
+				<Content contentName="K_ISO">
+					<Alias>
+						<FR>K_ISO</FR>
+						<EN>K_ISO</EN>
+					</Alias>
+				</Content>	
+				<Content contentName="CAN_IS">
+					<Alias>
+						<FR>CAN_IS</FR>
+						<EN>CAN_IS</EN>		
+					</Alias>
+				</Content>		
+				<Content contentName="CAN_DIAG">
+					<Alias>
+						<FR>CAN_DIAG</FR>
+						<EN>CAN_DIAG</EN>		
+					</Alias>
+				</Content>	
+				<Content contentName="CAN_IS_DIAG">
+					<Alias>
+						<FR>CAN_IS_DIAG</FR>
+						<EN>CAN_IS_DIAG</EN>		
+					</Alias>
+				</Content>					
+			</EnumeratedValues>				
+		</Attribute>						
+	</Element>			
+</Naming>
