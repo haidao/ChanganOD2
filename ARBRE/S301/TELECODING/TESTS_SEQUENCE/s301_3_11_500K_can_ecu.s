@@ -1,12 +1,12 @@
-<iodissee chk="912738982">
+<iodissee chk="1403510349">
 <entete>
 <ifichier>
 <nomfich nom="s301_3_11_500k_can_ecu">
 </nomfich>
-<modif date="07/06/2018" user="george" site="COMMUN">
+<modif date="21/02/2019" user="HD" site="BVAAL4">
 </modif>
 </ifichier>
-<ioutil nom="ime2" version="8.0.0.0" dateexe="13/12/2016">
+<ioutil nom="ime2" version="8.2.2.0" dateexe="16/08/2018">
 </ioutil>
 </entete>
 <precel>
@@ -14,11 +14,11 @@
 <cel>
 <debut poscol=5 poslig=1 destc=5 destl=2 ident=21>
 </debut>
-<result poscol=5 poslig=25 ident=40>
+<result poscol=5 poslig=27 ident=40>
 </result>
-<act poscol=7 poslig=24 destc=5 destl=24 ident=41>
+<act poscol=7 poslig=26 destc=5 destl=26 ident=41>
 </act>
-<act poscol=5 poslig=24 destc=5 destl=25 ident=42>
+<act poscol=5 poslig=26 destc=5 destl=27 ident=42>
 <Sessions>
 <AttenteFinToutesSessions>
 </AttenteFinToutesSessions>
@@ -80,69 +80,69 @@
 </act>
 <act poscol=7 poslig=11 destc=5 destl=12 ident=57>
 </act>
-<sess poscol=5 poslig=12 destc=7 destl=12 ident=58>
+<sess poscol=5 poslig=14 destc=7 destl=14 ident=58>
 <NouvelleSession nom="GW_TASK_SEQUENCE_3" copieDonneesLocales="NON" fichier="s301_gw.s">
 <CheminFichier chemin="COMMUN\ECU\S301_18_GW">
 </CheminFichier>
 </NouvelleSession>
 </sess>
-<act poscol=7 poslig=12 destc=7 destl=13 ident=59>
+<act poscol=7 poslig=14 destc=7 destl=15 ident=59>
 <Sessions>
 <AttenteDisponibiliteSession>
 </AttenteDisponibiliteSession>
 </Sessions>
 </act>
-<act poscol=7 poslig=13 destc=5 destl=14 ident=60>
+<act poscol=7 poslig=15 destc=5 destl=16 ident=60>
 </act>
-<sess poscol=5 poslig=14 destc=7 destl=14 ident=61>
+<sess poscol=5 poslig=16 destc=7 destl=16 ident=61>
 <NouvelleSession nom="IP_TASK_SEQUENCE_3" copieDonneesLocales="NON" fichier="s301_ip.s">
 <CheminFichier chemin="COMMUN\ECU\S301_18_IP">
 </CheminFichier>
 </NouvelleSession>
 </sess>
-<act poscol=7 poslig=14 destc=7 destl=15 ident=62>
+<act poscol=7 poslig=16 destc=7 destl=17 ident=62>
 <Sessions>
 <AttenteDisponibiliteSession>
 </AttenteDisponibiliteSession>
 </Sessions>
 </act>
-<act poscol=7 poslig=15 destc=5 destl=16 ident=63>
+<act poscol=7 poslig=17 destc=5 destl=18 ident=63>
 </act>
-<sess poscol=5 poslig=18 destc=7 destl=18 ident=64>
+<sess poscol=5 poslig=20 destc=7 destl=20 ident=64>
 <NouvelleSession nom="LCM_TASK_SEQUENCE_3" copieDonneesLocales="NON" fichier="s301_lcm.s">
 <CheminFichier chemin="COMMUN\ECU\S301_18_LCM">
 </CheminFichier>
 </NouvelleSession>
 </sess>
-<act poscol=7 poslig=18 destc=7 destl=19 ident=65>
+<act poscol=7 poslig=20 destc=7 destl=21 ident=65>
 <Sessions>
 <AttenteDisponibiliteSession>
 </AttenteDisponibiliteSession>
 </Sessions>
 </act>
-<act poscol=7 poslig=19 destc=5 destl=20 ident=66>
+<act poscol=7 poslig=21 destc=5 destl=22 ident=66>
 </act>
-<sess poscol=5 poslig=20 destc=7 destl=20 ident=67>
+<sess poscol=5 poslig=22 destc=7 destl=22 ident=67>
 <NouvelleSession nom="RRS_TASK_SEQUENCE_3" copieDonneesLocales="NON" fichier="s301_rrs.s">
 <CheminFichier chemin="COMMUN\ECU\S301_18_RRS">
 </CheminFichier>
 </NouvelleSession>
 </sess>
-<act poscol=7 poslig=20 destc=7 destl=21 ident=68>
+<act poscol=7 poslig=22 destc=7 destl=23 ident=68>
 <Sessions>
 <AttenteDisponibiliteSession>
 </AttenteDisponibiliteSession>
 </Sessions>
 </act>
-<act poscol=7 poslig=21 destc=5 destl=22 ident=69>
+<act poscol=7 poslig=23 destc=5 destl=24 ident=69>
 </act>
-<sess poscol=5 poslig=22 destc=7 destl=22 ident=70>
+<sess poscol=5 poslig=24 destc=7 destl=24 ident=70>
 <NouvelleSession nom="TBOX_TASK_SEQUENCE_3" copieDonneesLocales="NON" fichier="s301_tbox.s">
 <CheminFichier chemin="COMMUN\ECU\S301_18_TBOX">
 </CheminFichier>
 </NouvelleSession>
 </sess>
-<act poscol=7 poslig=22 destc=7 destl=24 ident=72>
+<act poscol=7 poslig=24 destc=7 destl=26 ident=72>
 </act>
 <sess poscol=5 poslig=8 destc=7 destl=8 ident=73>
 <NouvelleSession nom="THU_TASK_SEQUENCE_1" copieDonneesLocales="NON" fichier="s301_thu.s">
@@ -158,19 +158,33 @@
 </AttenteDisponibiliteSession>
 </Sessions>
 </act>
-<act poscol=7 poslig=16 destc=7 destl=17 ident=76>
+<act poscol=7 poslig=18 destc=7 destl=19 ident=76>
 <Sessions>
 <AttenteDisponibiliteSession>
 </AttenteDisponibiliteSession>
 </Sessions>
 </act>
-<act poscol=7 poslig=17 destc=5 destl=18 ident=77>
+<act poscol=7 poslig=19 destc=5 destl=20 ident=77>
 </act>
-<sess poscol=5 poslig=16 destc=7 destl=16 ident=78>
+<sess poscol=5 poslig=18 destc=7 destl=18 ident=78>
 <NouvelleSession nom="IP_TASK_SEQUENCE_4" copieDonneesLocales="NON" fichier="s301_ip.s">
 <CheminFichier chemin="COMMUN\ECU\S301_DCT_IP">
 </CheminFichier>
 </NouvelleSession>
 </sess>
+<sess poscol=5 poslig=12 destc=7 destl=12 ident=79>
+<NouvelleSession nom="ESCL_TASK_SEQUENCE_4" copieDonneesLocales="NON" fichier="s301_escl.s">
+<CheminFichier chemin="COMMUN\ECU\S301_DTC_ESCL">
+</CheminFichier>
+</NouvelleSession>
+</sess>
+<act poscol=7 poslig=12 destc=7 destl=13 ident=80>
+<Sessions>
+<AttenteDisponibiliteSession>
+</AttenteDisponibiliteSession>
+</Sessions>
+</act>
+<act poscol=7 poslig=13 destc=5 destl=14 ident=81>
+</act>
 </cel>
 </iodissee>
