@@ -1,9 +1,9 @@
-<iodissee chk="-1172785944">
+<iodissee chk="-1571733251">
 <entete>
 <ifichier>
 <nomfich nom="reflash_ems_transfer_data_1">
 </nomfich>
-<modif date="04/12/2018" user="HD" site="BVAAL4">
+<modif date="27/02/2019" user="HD" site="BVAAL4">
 </modif>
 </ifichier>
 <ioutil nom="ime2" version="8.2.2.0" dateexe="16/08/2018">
@@ -18,11 +18,11 @@
 <comment>//
 </comment>
 </debut>
-<act poscol=35 poslig=8 destc=5 destl=8 ident=132>
+<act poscol=39 poslig=8 destc=5 destl=8 ident=132>
 </act>
 <result poscol=5 poslig=8 ident=164>
 </result>
-<act poscol=35 poslig=4 destc=35 destl=5 ident=166>
+<act poscol=39 poslig=4 destc=39 destl=5 ident=166>
 <Calcul>
 <Affectation>
 <Source>
@@ -36,11 +36,11 @@
 </Affectation>
 </Calcul>
 </act>
-<sarbre poscol=35 poslig=5 destc=35 destl=6 ident=167 nomfichier="screen_results.s">
+<sarbre poscol=39 poslig=5 destc=39 destl=6 ident=167 nomfichier="screen_results.s">
 <CheminFichier chemin="COMMUN\RESULTS">
 </CheminFichier>
 </sarbre>
-<act poscol=35 poslig=6 destc=35 destl=7 ident=168>
+<act poscol=39 poslig=6 destc=39 destl=7 ident=168>
 <Calcul>
 <Addition>
 <descr>NEXT_ECU
@@ -60,7 +60,7 @@
 </Soustraction>
 </Calcul>
 </act>
-<sarbre poscol=35 poslig=7 destc=35 destl=8 ident=169 nomfichier="ticket_results.s">
+<sarbre poscol=39 poslig=7 destc=39 destl=8 ident=169 nomfichier="ticket_results.s">
 <CheminFichier chemin="COMMUN\RESULTS">
 </CheminFichier>
 </sarbre>
@@ -1249,6 +1249,154 @@
 </Calcul>
 </act>
 <act poscol=33 poslig=6 destc=31 destl=6 ident=243>
+</act>
+<test poscol=35 poslig=4 destouic=35 destouil=5 destnonc=37 destnonl=4 ident=244>
+<Calcul>
+<TestLogique>
+<appl>
+<pour>
+<descr>S301_EMS_MT92_1_TG
+</descr>
+</pour>
+</appl>
+</TestLogique>
+</Calcul>
+</test>
+<test poscol=37 poslig=4 destouic=37 destouil=5 destnonc=39 destnonl=4 ident=245>
+<Calcul>
+<TestLogique>
+<appl>
+<pour>
+<descr>S301_EMS_MT92_1_TH
+</descr>
+</pour>
+</appl>
+</TestLogique>
+</Calcul>
+</test>
+<act poscol=35 poslig=5 destc=35 destl=6 ident=246>
+<Calcul>
+<Affectation>
+<Source>
+<ReelDecimal>0
+</ReelDecimal>
+</Source>
+<Destination>
+<Code nom="Libre1">
+<Position>
+<ValPos>0
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</Code>
+</Destination>
+</Affectation>
+<Affectation>
+<phrasext code="1" site="flash_">
+</phrasext>
+<Code nom="Libre1">
+</Code>
+</Affectation>
+<Affectation>
+<Source>
+<ReelDecimal>0
+</ReelDecimal>
+</Source>
+<Destination>
+<BufferGlobal>
+<Numero>8
+</Numero>
+<Position>
+<ValPos>0
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</BufferGlobal>
+</Destination>
+</Affectation>
+<Affectation>
+<Source>
+<ChaineASCII valeur="S3010301201902270201">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>8
+</Numero>
+<Position>
+<ValPos>1
+</ValPos>
+</Position>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=37 poslig=5 destc=37 destl=6 ident=247>
+<Calcul>
+<Affectation>
+<Source>
+<ReelDecimal>0
+</ReelDecimal>
+</Source>
+<Destination>
+<Code nom="Libre1">
+<Position>
+<ValPos>0
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</Code>
+</Destination>
+</Affectation>
+<Affectation>
+<phrasext code="1" site="flash_">
+</phrasext>
+<Code nom="Libre1">
+</Code>
+</Affectation>
+<Affectation>
+<Source>
+<ReelDecimal>0
+</ReelDecimal>
+</Source>
+<Destination>
+<BufferGlobal>
+<Numero>8
+</Numero>
+<Position>
+<ValPos>0
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</BufferGlobal>
+</Destination>
+</Affectation>
+<Affectation>
+<Source>
+<ChaineASCII valeur="S3010301201902270301">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>8
+</Numero>
+<Position>
+<ValPos>1
+</ValPos>
+</Position>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=35 poslig=6 destc=33 destl=6 ident=248>
+</act>
+<act poscol=37 poslig=6 destc=35 destl=6 ident=249>
 </act>
 </cel>
 </iodissee>

@@ -1,9 +1,9 @@
-<iodissee chk="-661394831">
+<iodissee chk="213842631">
 <entete>
 <ifichier>
 <nomfich nom="s301_ems_get_data">
 </nomfich>
-<modif date="04/12/2018" user="HD" site="BVAAL4">
+<modif date="27/02/2019" user="HD" site="BVAAL4">
 </modif>
 </ifichier>
 <ioutil nom="ime2" version="8.2.2.0" dateexe="16/08/2018">
@@ -118,9 +118,9 @@
 </Addition>
 </Calcul>
 </act>
-<result poscol=3 poslig=19 ident=75>
+<result poscol=3 poslig=22 ident=75>
 </result>
-<act poscol=7 poslig=19 destc=3 destl=19 ident=76>
+<act poscol=7 poslig=22 destc=3 destl=22 ident=76>
 </act>
 <act poscol=7 poslig=4 destc=7 destl=5 ident=77>
 </act>
@@ -543,6 +543,66 @@
 </Calcul>
 </act>
 <act poscol=7 poslig=18 destc=7 destl=19 ident=119>
+</act>
+<test poscol=3 poslig=19 destouic=5 destouil=19 destnonc=3 destnonl=20 ident=120>
+<Calcul>
+<TestLogique>
+<TestBuffer nom="EGAL">
+<Buffer>
+<Numero>30
+</Numero>
+<Position>
+<ValPos>1
+</ValPos>
+</Position>
+<Longueur>2
+</Longueur>
+</Buffer>
+<ChaineASCII valeur="TG">
+</ChaineASCII>
+</TestBuffer>
+</TestLogique>
+</Calcul>
+</test>
+<act poscol=5 poslig=19 destc=7 destl=19 ident=121>
+<Calcul>
+<Addition>
+<descr>S301_EMS_MT92_1_TG
+</descr>
+</Addition>
+</Calcul>
+</act>
+<test poscol=3 poslig=20 destouic=5 destouil=20 destnonc=3 destnonl=22 ident=122>
+<Calcul>
+<TestLogique>
+<TestBuffer nom="EGAL">
+<Buffer>
+<Numero>30
+</Numero>
+<Position>
+<ValPos>1
+</ValPos>
+</Position>
+<Longueur>2
+</Longueur>
+</Buffer>
+<ChaineASCII valeur="TH">
+</ChaineASCII>
+</TestBuffer>
+</TestLogique>
+</Calcul>
+</test>
+<act poscol=5 poslig=20 destc=7 destl=20 ident=123>
+<Calcul>
+<Addition>
+<descr>S301_EMS_MT92_1_TH
+</descr>
+</Addition>
+</Calcul>
+</act>
+<act poscol=7 poslig=19 destc=7 destl=20 ident=124>
+</act>
+<act poscol=7 poslig=20 destc=7 destl=22 ident=125>
 </act>
 </cel>
 </iodissee>

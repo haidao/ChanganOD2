@@ -1,9 +1,9 @@
-<iodissee chk="1674028497">
+<iodissee chk="1678563905">
 <entete>
 <ifichier>
 <nomfich nom="menu0000">
 </nomfich>
-<modif date="25/01/2019" user="HD" site="BVAAL4">
+<modif date="27/02/2019" user="HD" site="BVAAL4">
 </modif>
 </ifichier>
 <ioutil nom="ime2" version="8.2.2.0" dateexe="16/08/2018">
@@ -340,7 +340,7 @@
 </act>
 <act poscol=9 poslig=51 destc=9 destl=52 ident=126>
 <Vehicule>
-<LectureTension nom="VBAT">
+<LectureTension nom="VBAT_OBD">
 </LectureTension>
 </Vehicule>
 </act>
@@ -369,7 +369,7 @@
 </Variable>
 </Source>
 <Source>
-<ReelDecimal>6
+<ReelDecimal>10
 </ReelDecimal>
 </Source>
 </TestVariable>
@@ -408,7 +408,7 @@
 <Calcul>
 <Affectation>
 <Source>
-<ChaineASCII valeur="Beijing Changan V244 20190125">
+<ChaineASCII valeur="Beijing Changan V245 20190227">
 </ChaineASCII>
 </Source>
 <Destination>
