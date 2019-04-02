@@ -408,7 +408,7 @@
 <Calcul>
 <Affectation>
 <Source>
-<ChaineASCII valeur="Beijing Changan V249 20190325">
+<ChaineASCII valeur="Beijing Changan V250 20190402">
 </ChaineASCII>
 </Source>
 <Destination>
