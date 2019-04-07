@@ -1,9 +1,9 @@
-<iodissee chk="213842631">
+<iodissee chk="1183686219">
 <entete>
 <ifichier>
 <nomfich nom="s301_ems_get_data">
 </nomfich>
-<modif date="27/02/2019" user="HD" site="BVAAL4">
+<modif date="07/04/2019" user="HD" site="BVAAL4">
 </modif>
 </ifichier>
 <ioutil nom="ime2" version="8.2.2.0" dateexe="16/08/2018">
@@ -118,9 +118,9 @@
 </Addition>
 </Calcul>
 </act>
-<result poscol=3 poslig=22 ident=75>
+<result poscol=3 poslig=23 ident=75>
 </result>
-<act poscol=7 poslig=22 destc=3 destl=22 ident=76>
+<act poscol=7 poslig=23 destc=3 destl=23 ident=76>
 </act>
 <act poscol=7 poslig=4 destc=7 destl=5 ident=77>
 </act>
@@ -572,7 +572,7 @@
 </Addition>
 </Calcul>
 </act>
-<test poscol=3 poslig=20 destouic=5 destouil=20 destnonc=3 destnonl=22 ident=122>
+<test poscol=3 poslig=20 destouic=5 destouil=20 destnonc=3 destnonl=21 ident=122>
 <Calcul>
 <TestLogique>
 <TestBuffer nom="EGAL">
@@ -602,7 +602,67 @@
 </act>
 <act poscol=7 poslig=19 destc=7 destl=20 ident=124>
 </act>
-<act poscol=7 poslig=20 destc=7 destl=22 ident=125>
+<act poscol=7 poslig=20 destc=7 destl=21 ident=125>
+</act>
+<test poscol=3 poslig=21 destouic=5 destouil=21 destnonc=3 destnonl=22 ident=126>
+<Calcul>
+<TestLogique>
+<TestBuffer nom="EGAL">
+<Buffer>
+<Numero>30
+</Numero>
+<Position>
+<ValPos>1
+</ValPos>
+</Position>
+<Longueur>2
+</Longueur>
+</Buffer>
+<ChaineASCII valeur="TI">
+</ChaineASCII>
+</TestBuffer>
+</TestLogique>
+</Calcul>
+</test>
+<act poscol=5 poslig=21 destc=7 destl=21 ident=127>
+<Calcul>
+<Addition>
+<descr>S301_EMS_MT92_1_TI
+</descr>
+</Addition>
+</Calcul>
+</act>
+<act poscol=7 poslig=21 destc=7 destl=22 ident=128>
+</act>
+<test poscol=3 poslig=22 destouic=5 destouil=22 destnonc=3 destnonl=23 ident=129>
+<Calcul>
+<TestLogique>
+<TestBuffer nom="EGAL">
+<Buffer>
+<Numero>30
+</Numero>
+<Position>
+<ValPos>1
+</ValPos>
+</Position>
+<Longueur>2
+</Longueur>
+</Buffer>
+<ChaineASCII valeur="TJ">
+</ChaineASCII>
+</TestBuffer>
+</TestLogique>
+</Calcul>
+</test>
+<act poscol=5 poslig=22 destc=7 destl=22 ident=130>
+<Calcul>
+<Addition>
+<descr>S301_EMS_MT92_1_TJ
+</descr>
+</Addition>
+</Calcul>
+</act>
+<act poscol=7 poslig=22 destc=7 destl=23 ident=131>
 </act>
 </cel>
 </iodissee>
