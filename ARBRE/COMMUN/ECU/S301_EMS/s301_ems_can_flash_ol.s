@@ -1,12 +1,12 @@
-<iodissee chk="-1132799316">
+<iodissee chk="-1236821861">
 <entete>
 <ifichier>
 <nomfich nom="s301_ems_can_flash_ol">
 </nomfich>
-<modif date="24/12/2018" user="HD" site="BVAAL4">
+<modif date="16/04/2019" user="HD" site="OACTIA">
 </modif>
 </ifichier>
-<ioutil nom="ime2" version="8.2.2.0" dateexe="16/08/2018">
+<ioutil nom="ime2" version="8.0.0.0" dateexe="16/04/2019">
 </ioutil>
 </entete>
 <precel>
@@ -104,9 +104,9 @@
 <CheminFichier chemin="COMMUN\COMMUNICATION">
 </CheminFichier>
 </sarbre>
-<act poscol=33 poslig=101 destc=5 destl=101 ident=71>
+<act poscol=35 poslig=101 destc=5 destl=101 ident=71>
 </act>
-<test poscol=5 poslig=28 destouic=33 destouil=101 destnonc=5 destnonl=30 ident=75>
+<test poscol=5 poslig=28 destouic=35 destouil=101 destnonc=5 destnonl=30 ident=75>
 <Calcul>
 <TestLogique>
 <appl>
@@ -360,7 +360,7 @@
 <CheminFichier chemin="COMMUN\ECU\S301_EMS">
 </CheminFichier>
 </sarbre>
-<test poscol=5 poslig=15 destouic=27 destouil=21 destnonc=5 destnonl=16 ident=85>
+<test poscol=5 poslig=15 destouic=29 destouil=21 destnonc=5 destnonl=16 ident=85>
 <Calcul>
 <TestLogique>
 <appl>
@@ -376,7 +376,7 @@
 <CheminFichier chemin="COMMUN\ECU\S301_EMS">
 </CheminFichier>
 </sarbre>
-<test poscol=5 poslig=17 destouic=27 destouil=21 destnonc=5 destnonl=18 ident=87>
+<test poscol=5 poslig=17 destouic=29 destouil=21 destnonc=5 destnonl=18 ident=87>
 <Calcul>
 <TestLogique>
 <appl>
@@ -392,7 +392,7 @@
 <CheminFichier chemin="COMMUN\ECU\S301_EMS">
 </CheminFichier>
 </sarbre>
-<test poscol=27 poslig=24 destouic=33 destouil=101 destnonc=5 destnonl=26 ident=89>
+<test poscol=29 poslig=24 destouic=35 destouil=101 destnonc=5 destnonl=26 ident=89>
 <Calcul>
 <TestLogique>
 <appl>
@@ -404,7 +404,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<test poscol=5 poslig=32 destouic=33 destouil=101 destnonc=5 destnonl=34 ident=99>
+<test poscol=5 poslig=32 destouic=35 destouil=101 destnonc=5 destnonl=34 ident=99>
 <Calcul>
 <TestLogique>
 <appl>
@@ -684,7 +684,7 @@
 <CheminFichier chemin="COMMUN\ECU\S301_EMS">
 </CheminFichier>
 </sarbre>
-<test poscol=5 poslig=36 destouic=33 destouil=101 destnonc=5 destnonl=38 ident=113>
+<test poscol=5 poslig=36 destouic=35 destouil=101 destnonc=5 destnonl=38 ident=113>
 <Calcul>
 <TestLogique>
 <appl>
@@ -942,11 +942,11 @@
 </Affectation>
 </Calcul>
 </act>
-<sarbre poscol=5 poslig=39 destc=27 destl=40 ident=117 nomfichier="s301_ems_can_flash_genericfnc.s">
+<sarbre poscol=5 poslig=39 destc=29 destl=40 ident=117 nomfichier="s301_ems_can_flash_genericfnc.s">
 <CheminFichier chemin="COMMUN\ECU\S301_EMS">
 </CheminFichier>
 </sarbre>
-<test poscol=5 poslig=45 destouic=33 destouil=101 destnonc=5 destnonl=47 ident=118>
+<test poscol=5 poslig=45 destouic=35 destouil=101 destnonc=5 destnonl=47 ident=118>
 <Calcul>
 <TestLogique>
 <appl>
@@ -1090,7 +1090,7 @@
 <CheminFichier chemin="COMMUN\ECU\S301_EMS">
 </CheminFichier>
 </sarbre>
-<test poscol=5 poslig=57 destouic=33 destouil=101 destnonc=5 destnonl=59 ident=126>
+<test poscol=5 poslig=57 destouic=35 destouil=101 destnonc=5 destnonl=59 ident=126>
 <Calcul>
 <TestLogique>
 <appl>
@@ -1102,7 +1102,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<test poscol=5 poslig=60 destouic=33 destouil=101 destnonc=5 destnonl=62 ident=130>
+<test poscol=5 poslig=60 destouic=35 destouil=101 destnonc=5 destnonl=62 ident=130>
 <Calcul>
 <TestLogique>
 <appl>
@@ -1118,7 +1118,7 @@
 <CheminFichier chemin="COMMUN\ECU\S301_EMS">
 </CheminFichier>
 </sarbre>
-<test poscol=5 poslig=64 destouic=33 destouil=101 destnonc=5 destnonl=66 ident=138>
+<test poscol=5 poslig=64 destouic=35 destouil=101 destnonc=5 destnonl=66 ident=138>
 <Calcul>
 <TestLogique>
 <appl>
@@ -1262,7 +1262,7 @@
 <CheminFichier chemin="COMMUN\ECU\S301_EMS">
 </CheminFichier>
 </sarbre>
-<test poscol=5 poslig=77 destouic=33 destouil=101 destnonc=5 destnonl=79 ident=146>
+<test poscol=5 poslig=77 destouic=35 destouil=101 destnonc=5 destnonl=79 ident=146>
 <Calcul>
 <TestLogique>
 <appl>
@@ -1278,7 +1278,7 @@
 <CheminFichier chemin="COMMUN\ECU\S301_EMS">
 </CheminFichier>
 </sarbre>
-<test poscol=5 poslig=80 destouic=33 destouil=101 destnonc=5 destnonl=82 ident=151>
+<test poscol=5 poslig=80 destouic=35 destouil=101 destnonc=5 destnonl=82 ident=151>
 <Calcul>
 <TestLogique>
 <appl>
@@ -1360,7 +1360,7 @@
 </Affectation>
 </Calcul>
 </act>
-<test poscol=5 poslig=12 destouic=27 destouil=21 destnonc=5 destnonl=14 ident=163>
+<test poscol=5 poslig=12 destouic=29 destouil=21 destnonc=5 destnonl=14 ident=163>
 <Calcul>
 <TestLogique>
 <appl>
@@ -1418,7 +1418,7 @@
 <CheminFichier chemin="COMMUN\ECU\S301_EMS">
 </CheminFichier>
 </sarbre>
-<test poscol=5 poslig=91 destouic=33 destouil=101 destnonc=5 destnonl=93 ident=169>
+<test poscol=5 poslig=91 destouic=35 destouil=101 destnonc=5 destnonl=93 ident=169>
 <Calcul>
 <TestLogique>
 <appl>
@@ -1738,7 +1738,7 @@
 </Addition>
 </Calcul>
 </act>
-<test poscol=5 poslig=20 destouic=5 destouil=14 destnonc=27 destnonl=21 ident=200>
+<test poscol=5 poslig=20 destouic=5 destouil=14 destnonc=29 destnonl=21 ident=200>
 <Calcul>
 <TestLogique>
 <appl>
@@ -1750,7 +1750,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<test poscol=5 poslig=19 destouic=5 destouil=20 destnonc=27 destnonl=21 ident=201>
+<test poscol=5 poslig=19 destouic=5 destouil=20 destnonc=29 destnonl=21 ident=201>
 <Calcul>
 <TestLogique>
 <appl>
@@ -1768,7 +1768,7 @@
 </sarbre>
 <result poscol=5 poslig=109 ident=213>
 </result>
-<test poscol=27 poslig=48 destouic=27 destouil=49 destnonc=29 destnonl=48 ident=218>
+<test poscol=29 poslig=48 destouic=29 destouil=49 destnonc=31 destnonl=48 ident=218>
 <Calcul>
 <TestLogique>
 <appl>
@@ -1780,7 +1780,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<test poscol=29 poslig=48 destouic=29 destouil=49 destnonc=31 destnonl=48 ident=225>
+<test poscol=31 poslig=48 destouic=31 destouil=49 destnonc=33 destnonl=48 ident=225>
 <Calcul>
 <TestLogique>
 <appl>
@@ -1792,11 +1792,11 @@
 </TestLogique>
 </Calcul>
 </test>
-<sarbre poscol=27 poslig=49 destc=27 destl=50 ident=226 nomfichier="s301_ems_can_flash_G_IV_1st_download.s">
+<sarbre poscol=29 poslig=49 destc=29 destl=50 ident=226 nomfichier="s301_ems_can_flash_G_IV_1st_download.s">
 <CheminFichier chemin="COMMUN\ECU\S301_EMS">
 </CheminFichier>
 </sarbre>
-<sarbre poscol=29 poslig=49 destc=29 destl=50 ident=227 nomfichier="s301_ems_can_flash_G_V_1st_download.s">
+<sarbre poscol=31 poslig=49 destc=31 destl=50 ident=227 nomfichier="s301_ems_can_flash_G_V_1st_download.s">
 <CheminFichier chemin="COMMUN\ECU\S301_EMS">
 </CheminFichier>
 </sarbre>
@@ -1804,7 +1804,7 @@
 <CheminFichier chemin="COMMUN\ECU\S301_EMS">
 </CheminFichier>
 </sarbre>
-<test poscol=27 poslig=67 destouic=27 destouil=68 destnonc=29 destnonl=67 ident=232>
+<test poscol=29 poslig=67 destouic=29 destouil=68 destnonc=31 destnonl=67 ident=232>
 <Calcul>
 <TestLogique>
 <appl>
@@ -1816,7 +1816,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<test poscol=29 poslig=67 destouic=29 destouil=68 destnonc=31 destnonl=67 ident=233>
+<test poscol=31 poslig=67 destouic=31 destouil=68 destnonc=33 destnonl=67 ident=233>
 <Calcul>
 <TestLogique>
 <appl>
@@ -1828,15 +1828,15 @@
 </TestLogique>
 </Calcul>
 </test>
-<sarbre poscol=27 poslig=68 destc=27 destl=69 ident=234 nomfichier="s301_ems_can_flash_G_IV_2nd_download.s">
+<sarbre poscol=29 poslig=68 destc=29 destl=69 ident=234 nomfichier="s301_ems_can_flash_G_IV_2nd_download.s">
 <CheminFichier chemin="COMMUN\ECU\S301_EMS">
 </CheminFichier>
 </sarbre>
-<sarbre poscol=29 poslig=68 destc=29 destl=69 ident=235 nomfichier="s301_ems_can_flash_G_V_2nd_download.s">
+<sarbre poscol=31 poslig=68 destc=31 destl=69 ident=235 nomfichier="s301_ems_can_flash_G_V_2nd_download.s">
 <CheminFichier chemin="COMMUN\ECU\S301_EMS">
 </CheminFichier>
 </sarbre>
-<test poscol=5 poslig=83 destouic=33 destouil=101 destnonc=5 destnonl=85 ident=242>
+<test poscol=5 poslig=83 destouic=35 destouil=101 destnonc=5 destnonl=85 ident=242>
 <Calcul>
 <TestLogique>
 <appl>
@@ -1848,7 +1848,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<test poscol=31 poslig=48 destouic=31 destouil=50 destnonc=33 destnonl=101 ident=243>
+<test poscol=33 poslig=48 destouic=33 destouil=50 destnonc=35 destnonl=101 ident=243>
 <Calcul>
 <TestLogique>
 <appl>
@@ -1860,13 +1860,13 @@
 </TestLogique>
 </Calcul>
 </test>
-<sarbre poscol=31 poslig=50 destc=29 destl=50 ident=244 nomfichier="s301_ems_can_flash_J_V_1st_download.s">
+<sarbre poscol=33 poslig=50 destc=31 destl=50 ident=244 nomfichier="s301_ems_can_flash_J_V_1st_download.s">
 <CheminFichier chemin="COMMUN\ECU\S301_EMS">
 </CheminFichier>
 </sarbre>
-<act poscol=29 poslig=50 destc=27 destl=50 ident=245>
+<act poscol=31 poslig=50 destc=29 destl=50 ident=245>
 </act>
-<test poscol=31 poslig=67 destouic=31 destouil=69 destnonc=33 destnonl=101 ident=249>
+<test poscol=33 poslig=67 destouic=33 destouil=69 destnonc=35 destnonl=101 ident=249>
 <Calcul>
 <TestLogique>
 <appl>
@@ -1878,11 +1878,11 @@
 </TestLogique>
 </Calcul>
 </test>
-<sarbre poscol=31 poslig=69 destc=29 destl=69 ident=250 nomfichier="s301_ems_can_flash_J_V_2nd_download.s">
+<sarbre poscol=33 poslig=69 destc=31 destl=69 ident=250 nomfichier="s301_ems_can_flash_J_V_2nd_download.s">
 <CheminFichier chemin="COMMUN\ECU\S301_EMS">
 </CheminFichier>
 </sarbre>
-<act poscol=29 poslig=69 destc=27 destl=69 ident=251>
+<act poscol=31 poslig=69 destc=29 destl=69 ident=251>
 </act>
 <act poscol=5 poslig=2 destc=5 destl=3 ident=255>
 <Operateur>
@@ -1920,7 +1920,7 @@
 </Addition>
 </Calcul>
 </act>
-<act poscol=27 poslig=22 destc=27 destl=23 ident=258>
+<act poscol=29 poslig=22 destc=29 destl=23 ident=258>
 <Operateur>
 <TraceECU>
 <DesactiveTraceECU>
@@ -1928,7 +1928,7 @@
 </TraceECU>
 </Operateur>
 </act>
-<act poscol=27 poslig=23 destc=27 destl=24 ident=259>
+<act poscol=29 poslig=23 destc=29 destl=24 ident=259>
 <Operateur>
 <Affichage>
 <Paragraphe>
@@ -1944,9 +1944,9 @@
 </TraceECU>
 </Operateur>
 </act>
-<act poscol=27 poslig=21 destc=27 destl=24 ident=260>
+<act poscol=29 poslig=21 destc=29 destl=24 ident=260>
 </act>
-<act poscol=27 poslig=41 destc=27 destl=42 ident=261>
+<act poscol=29 poslig=41 destc=29 destl=42 ident=261>
 <Operateur>
 <TraceECU>
 <DesactiveTraceECU>
@@ -1954,7 +1954,7 @@
 </TraceECU>
 </Operateur>
 </act>
-<act poscol=27 poslig=42 destc=5 destl=45 ident=262>
+<act poscol=29 poslig=42 destc=5 destl=45 ident=262>
 <Operateur>
 <Affichage>
 <Paragraphe>
@@ -1970,13 +1970,13 @@
 </TraceECU>
 </Operateur>
 </act>
-<act poscol=27 poslig=40 destc=27 destl=41 ident=263>
+<act poscol=29 poslig=40 destc=29 destl=41 ident=263>
 </act>
 <act poscol=5 poslig=52 destc=5 destl=55 ident=266>
 </act>
 <act poscol=5 poslig=71 destc=5 destl=75 ident=273>
 </act>
-<act poscol=27 poslig=50 destc=25 destl=50 ident=274>
+<act poscol=29 poslig=50 destc=27 destl=50 ident=274>
 </act>
 <test poscol=5 poslig=48 destouic=5 destouil=49 destnonc=7 destnonl=48 ident=275>
 <Calcul>
@@ -2056,7 +2056,7 @@
 </act>
 <act poscol=5 poslig=50 destc=5 destl=51 ident=277>
 </act>
-<act poscol=27 poslig=69 destc=25 destl=69 ident=278>
+<act poscol=29 poslig=69 destc=27 destl=69 ident=278>
 </act>
 <test poscol=5 poslig=67 destouic=5 destouil=68 destnonc=7 destnonl=67 ident=279>
 <Calcul>
@@ -3673,6 +3673,160 @@
 <act poscol=23 poslig=69 destc=21 destl=69 ident=343>
 </act>
 <act poscol=25 poslig=69 destc=23 destl=69 ident=344>
+</act>
+<test poscol=27 poslig=48 destouic=27 destouil=49 destnonc=29 destnonl=48 ident=345>
+<Calcul>
+<TestLogique>
+<appl>
+<pour>
+<descr>EMS_FLASHFILE_U8
+</descr>
+</pour>
+</appl>
+</TestLogique>
+</Calcul>
+</test>
+<act poscol=27 poslig=49 destc=27 destl=50 ident=346>
+<comment>Data Transfer
+</comment>
+<comment>Flash file 1st
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ReelDecimal>0
+</ReelDecimal>
+</Source>
+<Destination>
+<Code nom="Libre1">
+<Position>
+<ValPos>0
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</Code>
+</Destination>
+</Affectation>
+<Affectation>
+<phrasext code="1" site="flash_">
+</phrasext>
+<Code nom="Libre1">
+</Code>
+</Affectation>
+<Affectation>
+<Source>
+<ReelDecimal>0
+</ReelDecimal>
+</Source>
+<Destination>
+<BufferGlobal>
+<Numero>8
+</Numero>
+<Position>
+<ValPos>0
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</BufferGlobal>
+</Destination>
+</Affectation>
+<Affectation>
+<Source>
+<ChaineASCII valeur="S3010201201904160101">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>8
+</Numero>
+<Position>
+<ValPos>1
+</ValPos>
+</Position>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=27 poslig=50 destc=25 destl=50 ident=347>
+</act>
+<test poscol=27 poslig=67 destouic=27 destouil=68 destnonc=29 destnonl=67 ident=348>
+<Calcul>
+<TestLogique>
+<appl>
+<pour>
+<descr>EMS_FLASHFILE_U8
+</descr>
+</pour>
+</appl>
+</TestLogique>
+</Calcul>
+</test>
+<act poscol=27 poslig=68 destc=27 destl=69 ident=349>
+<comment>Flash file 2nd
+</comment>
+<Calcul>
+<Affectation>
+<Source>
+<ReelDecimal>0
+</ReelDecimal>
+</Source>
+<Destination>
+<Code nom="Libre1">
+<Position>
+<ValPos>0
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</Code>
+</Destination>
+</Affectation>
+<Affectation>
+<phrasext code="1" site="flash_">
+</phrasext>
+<Code nom="Libre1">
+</Code>
+</Affectation>
+<Affectation>
+<Source>
+<ReelDecimal>0
+</ReelDecimal>
+</Source>
+<Destination>
+<BufferGlobal>
+<Numero>8
+</Numero>
+<Position>
+<ValPos>0
+</ValPos>
+</Position>
+<Longueur>1
+</Longueur>
+</BufferGlobal>
+</Destination>
+</Affectation>
+<Affectation>
+<Source>
+<ChaineASCII valeur="S3010201201904160102">
+</ChaineASCII>
+</Source>
+<Destination>
+<Buffer>
+<Numero>8
+</Numero>
+<Position>
+<ValPos>1
+</ValPos>
+</Position>
+</Buffer>
+</Destination>
+</Affectation>
+</Calcul>
+</act>
+<act poscol=27 poslig=69 destc=25 destl=69 ident=350>
 </act>
 </cel>
 </iodissee>

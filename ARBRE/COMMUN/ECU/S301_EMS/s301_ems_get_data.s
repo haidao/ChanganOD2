@@ -1,16 +1,16 @@
-<iodissee chk="184758167">
+<iodissee chk="-570804238">
 <entete>
 <ifichier>
 <nomfich nom="s301_ems_get_data">
 </nomfich>
-<modif date="24/12/2018" user="HD" site="BVAAL4">
+<modif date="16/04/2019" user="HD" site="OACTIA">
 </modif>
 </ifichier>
-<ioutil nom="ime2" version="8.2.2.0" dateexe="16/08/2018">
+<ioutil nom="ime2" version="8.0.0.0" dateexe="16/04/2019">
 </ioutil>
 </entete>
 <precel>
-<infoarbre poscol=3 poslig=45 ident=53>
+<infoarbre poscol=3 poslig=46 ident=53>
 <comment>Using Test Skip
 </comment>
 </infoarbre>
@@ -20,7 +20,7 @@
 <comment>EMS Flash Get Data
 </comment>
 </debut>
-<act poscol=3 poslig=11 destc=3 destl=12 ident=11>
+<act poscol=3 poslig=12 destc=3 destl=13 ident=11>
 <Calcul>
 <Affectation>
 <Source>
@@ -62,7 +62,7 @@
 </Affectation>
 </Calcul>
 </act>
-<test poscol=3 poslig=12 destouic=5 destouil=12 destnonc=3 destnonl=13 ident=14>
+<test poscol=3 poslig=13 destouic=5 destouil=13 destnonc=3 destnonl=14 ident=14>
 <Operateur>
 </Operateur>
 <Calcul>
@@ -88,7 +88,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<act poscol=5 poslig=12 destc=7 destl=45 ident=15>
+<act poscol=5 poslig=13 destc=7 destl=46 ident=15>
 <Calcul>
 <Addition>
 <descr>S301_GUO_IV 
@@ -122,7 +122,7 @@
 </Affichage>
 </Operateur>
 </act>
-<test poscol=3 poslig=13 destouic=5 destouil=13 destnonc=3 destnonl=14 ident=16>
+<test poscol=3 poslig=14 destouic=5 destouil=14 destnonc=3 destnonl=15 ident=16>
 <Operateur>
 </Operateur>
 <Calcul>
@@ -148,7 +148,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<act poscol=5 poslig=13 destc=7 destl=45 ident=17>
+<act poscol=5 poslig=14 destc=7 destl=46 ident=17>
 <Calcul>
 <Addition>
 <descr>S301_GUO_IV 
@@ -164,7 +164,7 @@
 </Addition>
 </Calcul>
 </act>
-<test poscol=3 poslig=14 destouic=5 destouil=14 destnonc=3 destnonl=15 ident=18>
+<test poscol=3 poslig=15 destouic=5 destouil=15 destnonc=3 destnonl=16 ident=18>
 <Operateur>
 </Operateur>
 <Calcul>
@@ -190,7 +190,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<act poscol=5 poslig=14 destc=7 destl=45 ident=19>
+<act poscol=5 poslig=15 destc=7 destl=46 ident=19>
 <Calcul>
 <Addition>
 <descr>S301_GUO_IV 
@@ -206,7 +206,7 @@
 </Addition>
 </Calcul>
 </act>
-<test poscol=3 poslig=15 destouic=5 destouil=15 destnonc=3 destnonl=16 ident=20>
+<test poscol=3 poslig=16 destouic=5 destouil=16 destnonc=3 destnonl=17 ident=20>
 <Operateur>
 </Operateur>
 <Calcul>
@@ -232,7 +232,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<act poscol=5 poslig=15 destc=7 destl=45 ident=21>
+<act poscol=5 poslig=16 destc=7 destl=46 ident=21>
 <Calcul>
 <Addition>
 <descr>S301_GUO_IV 
@@ -248,7 +248,7 @@
 </Addition>
 </Calcul>
 </act>
-<test poscol=3 poslig=16 destouic=5 destouil=16 destnonc=3 destnonl=17 ident=22>
+<test poscol=3 poslig=17 destouic=5 destouil=17 destnonc=3 destnonl=18 ident=22>
 <Operateur>
 </Operateur>
 <Calcul>
@@ -274,7 +274,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<act poscol=5 poslig=16 destc=7 destl=45 ident=23>
+<act poscol=5 poslig=17 destc=7 destl=46 ident=23>
 <Calcul>
 <Addition>
 <descr>S301_GUO_IV 
@@ -290,7 +290,7 @@
 </Addition>
 </Calcul>
 </act>
-<test poscol=3 poslig=17 destouic=5 destouil=17 destnonc=3 destnonl=18 ident=24>
+<test poscol=3 poslig=18 destouic=5 destouil=18 destnonc=3 destnonl=19 ident=24>
 <Operateur>
 </Operateur>
 <Calcul>
@@ -316,7 +316,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<act poscol=5 poslig=17 destc=7 destl=45 ident=25>
+<act poscol=5 poslig=18 destc=7 destl=46 ident=25>
 <Calcul>
 <Addition>
 <descr>S301_GUO_V
@@ -336,7 +336,7 @@
 </Addition>
 </Calcul>
 </act>
-<test poscol=3 poslig=18 destouic=5 destouil=18 destnonc=3 destnonl=19 ident=26>
+<test poscol=3 poslig=19 destouic=5 destouil=19 destnonc=3 destnonl=20 ident=26>
 <Operateur>
 </Operateur>
 <Calcul>
@@ -362,7 +362,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<act poscol=5 poslig=18 destc=7 destl=45 ident=27>
+<act poscol=5 poslig=19 destc=7 destl=46 ident=27>
 <Calcul>
 <Addition>
 <descr>S301_GUO_V
@@ -374,7 +374,7 @@
 </Addition>
 </Calcul>
 </act>
-<test poscol=3 poslig=19 destouic=5 destouil=19 destnonc=3 destnonl=20 ident=28>
+<test poscol=3 poslig=20 destouic=5 destouil=20 destnonc=3 destnonl=21 ident=28>
 <Operateur>
 </Operateur>
 <Calcul>
@@ -400,7 +400,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<act poscol=5 poslig=19 destc=7 destl=45 ident=29>
+<act poscol=5 poslig=20 destc=7 destl=46 ident=29>
 <Calcul>
 <Addition>
 <descr>S301_GUO_V
@@ -412,7 +412,7 @@
 </Addition>
 </Calcul>
 </act>
-<test poscol=3 poslig=20 destouic=5 destouil=20 destnonc=3 destnonl=21 ident=30>
+<test poscol=3 poslig=21 destouic=5 destouil=21 destnonc=3 destnonl=22 ident=30>
 <Operateur>
 </Operateur>
 <Calcul>
@@ -438,7 +438,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<act poscol=5 poslig=20 destc=7 destl=45 ident=31>
+<act poscol=5 poslig=21 destc=7 destl=46 ident=31>
 <Calcul>
 <Addition>
 <descr>S301_GUO_V
@@ -450,7 +450,7 @@
 </Addition>
 </Calcul>
 </act>
-<test poscol=3 poslig=21 destouic=5 destouil=21 destnonc=3 destnonl=22 ident=32>
+<test poscol=3 poslig=22 destouic=5 destouil=22 destnonc=3 destnonl=23 ident=32>
 <Operateur>
 </Operateur>
 <Calcul>
@@ -476,7 +476,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<act poscol=5 poslig=21 destc=7 destl=45 ident=33>
+<act poscol=5 poslig=22 destc=7 destl=46 ident=33>
 <Calcul>
 <Addition>
 <descr>S301_GUO_V
@@ -488,15 +488,15 @@
 </Addition>
 </Calcul>
 </act>
-<act poscol=7 poslig=45 destc=5 destl=46 ident=34>
+<act poscol=7 poslig=46 destc=5 destl=47 ident=34>
 </act>
-<result poscol=5 poslig=46 ident=36>
+<result poscol=5 poslig=47 ident=36>
 </result>
-<sarbre poscol=5 poslig=41 destc=5 destl=42 ident=38 nomfichier="screen_results.s">
+<sarbre poscol=5 poslig=42 destc=5 destl=43 ident=38 nomfichier="screen_results.s">
 <CheminFichier chemin="COMMUN\RESULTS">
 </CheminFichier>
 </sarbre>
-<act poscol=5 poslig=42 destc=5 destl=43 ident=39>
+<act poscol=5 poslig=43 destc=5 destl=44 ident=39>
 <Calcul>
 <Addition>
 <descr>NEXT_ECU
@@ -516,15 +516,15 @@
 </Soustraction>
 </Calcul>
 </act>
-<sarbre poscol=5 poslig=43 destc=5 destl=44 ident=40 nomfichier="ticket_results.s">
+<sarbre poscol=5 poslig=44 destc=5 destl=45 ident=40 nomfichier="ticket_results.s">
 <CheminFichier chemin="COMMUN\RESULTS">
 </CheminFichier>
 </sarbre>
-<sarbre poscol=5 poslig=44 destc=5 destl=46 ident=41 nomfichier="statistics_test_results.s">
+<sarbre poscol=5 poslig=45 destc=5 destl=47 ident=41 nomfichier="statistics_test_results.s">
 <CheminFichier chemin="COMMUN\STATISTICS">
 </CheminFichier>
 </sarbre>
-<test poscol=3 poslig=37 destouic=5 destouil=40 destnonc=3 destnonl=38 ident=43>
+<test poscol=3 poslig=38 destouic=5 destouil=41 destnonc=3 destnonl=39 ident=43>
 <Operateur>
 </Operateur>
 <Calcul>
@@ -550,7 +550,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<test poscol=3 poslig=39 destouic=5 destouil=40 destnonc=3 destnonl=40 ident=44>
+<test poscol=3 poslig=40 destouic=5 destouil=41 destnonc=3 destnonl=41 ident=44>
 <Operateur>
 </Operateur>
 <Calcul>
@@ -576,7 +576,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<act poscol=5 poslig=40 destc=5 destl=41 ident=46>
+<act poscol=5 poslig=41 destc=5 destl=42 ident=46>
 <Calcul>
 <Affectation>
 <Source>
@@ -590,7 +590,7 @@
 </Affectation>
 </Calcul>
 </act>
-<act poscol=3 poslig=40 destc=5 destl=40 ident=48>
+<act poscol=3 poslig=41 destc=5 destl=41 ident=48>
 </act>
 <act poscol=3 poslig=2 destc=3 destl=3 ident=49>
 <Calcul>
@@ -626,7 +626,7 @@
 </Affectation>
 </Calcul>
 </act>
-<act poscol=5 poslig=45 destc=5 destl=46 ident=52>
+<act poscol=5 poslig=46 destc=5 destl=47 ident=52>
 <Operateur>
 <Affichage>
 <Buffer>
@@ -662,7 +662,7 @@
 </Validation>
 </Operateur>
 </act>
-<test poscol=3 poslig=22 destouic=5 destouil=22 destnonc=3 destnonl=23 ident=54>
+<test poscol=3 poslig=23 destouic=5 destouil=23 destnonc=3 destnonl=24 ident=54>
 <Operateur>
 </Operateur>
 <Calcul>
@@ -688,7 +688,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<test poscol=3 poslig=23 destouic=5 destouil=23 destnonc=3 destnonl=24 ident=55>
+<test poscol=3 poslig=24 destouic=5 destouil=24 destnonc=3 destnonl=25 ident=55>
 <Operateur>
 </Operateur>
 <Calcul>
@@ -714,7 +714,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<test poscol=3 poslig=24 destouic=5 destouil=24 destnonc=3 destnonl=25 ident=56>
+<test poscol=3 poslig=25 destouic=5 destouil=25 destnonc=3 destnonl=26 ident=56>
 <Operateur>
 </Operateur>
 <Calcul>
@@ -740,7 +740,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<test poscol=3 poslig=25 destouic=5 destouil=25 destnonc=3 destnonl=26 ident=57>
+<test poscol=3 poslig=26 destouic=5 destouil=26 destnonc=3 destnonl=27 ident=57>
 <Operateur>
 </Operateur>
 <Calcul>
@@ -766,7 +766,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<act poscol=5 poslig=22 destc=7 destl=45 ident=58>
+<act poscol=5 poslig=23 destc=7 destl=46 ident=58>
 <Calcul>
 <Addition>
 <descr>S301_4WD
@@ -790,7 +790,7 @@
 </Addition>
 </Calcul>
 </act>
-<act poscol=5 poslig=23 destc=7 destl=45 ident=59>
+<act poscol=5 poslig=24 destc=7 destl=46 ident=59>
 <Calcul>
 <Addition>
 <descr>S301_4WD
@@ -814,7 +814,7 @@
 </Addition>
 </Calcul>
 </act>
-<act poscol=5 poslig=24 destc=7 destl=45 ident=60>
+<act poscol=5 poslig=25 destc=7 destl=46 ident=60>
 <Calcul>
 <Addition>
 <descr>S301_4WD
@@ -830,7 +830,7 @@
 </Addition>
 </Calcul>
 </act>
-<act poscol=5 poslig=25 destc=7 destl=45 ident=61>
+<act poscol=5 poslig=26 destc=7 destl=46 ident=61>
 <Calcul>
 <Addition>
 <descr>S301_4WD
@@ -846,7 +846,7 @@
 </Addition>
 </Calcul>
 </act>
-<test poscol=3 poslig=38 destouic=5 destouil=40 destnonc=3 destnonl=39 ident=62>
+<test poscol=3 poslig=39 destouic=5 destouil=41 destnonc=3 destnonl=40 ident=62>
 <Operateur>
 </Operateur>
 <Calcul>
@@ -872,7 +872,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<test poscol=3 poslig=26 destouic=5 destouil=26 destnonc=3 destnonl=27 ident=63>
+<test poscol=3 poslig=27 destouic=5 destouil=27 destnonc=3 destnonl=28 ident=63>
 <Operateur>
 </Operateur>
 <Calcul>
@@ -898,7 +898,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<test poscol=3 poslig=27 destouic=5 destouil=27 destnonc=3 destnonl=28 ident=64>
+<test poscol=3 poslig=28 destouic=5 destouil=28 destnonc=3 destnonl=29 ident=64>
 <Operateur>
 </Operateur>
 <Calcul>
@@ -924,7 +924,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<test poscol=3 poslig=28 destouic=5 destouil=28 destnonc=3 destnonl=29 ident=65>
+<test poscol=3 poslig=29 destouic=5 destouil=29 destnonc=3 destnonl=30 ident=65>
 <Operateur>
 </Operateur>
 <Calcul>
@@ -950,7 +950,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<act poscol=5 poslig=28 destc=7 destl=45 ident=68>
+<act poscol=5 poslig=29 destc=7 destl=46 ident=68>
 <Calcul>
 <Addition>
 <descr>S301_GUO_IV 
@@ -966,7 +966,7 @@
 </Addition>
 </Calcul>
 </act>
-<act poscol=5 poslig=26 destc=7 destl=45 ident=69>
+<act poscol=5 poslig=27 destc=7 destl=46 ident=69>
 <Calcul>
 <Addition>
 <descr>S301_GUO_IV 
@@ -982,7 +982,7 @@
 </Addition>
 </Calcul>
 </act>
-<act poscol=5 poslig=27 destc=7 destl=45 ident=70>
+<act poscol=5 poslig=28 destc=7 destl=46 ident=70>
 <Calcul>
 <Addition>
 <descr>S301_GUO_IV 
@@ -998,7 +998,7 @@
 </Addition>
 </Calcul>
 </act>
-<test poscol=3 poslig=29 destouic=5 destouil=29 destnonc=3 destnonl=30 ident=71>
+<test poscol=3 poslig=30 destouic=5 destouil=30 destnonc=3 destnonl=31 ident=71>
 <Operateur>
 </Operateur>
 <Calcul>
@@ -1024,7 +1024,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<act poscol=5 poslig=29 destc=7 destl=45 ident=72>
+<act poscol=5 poslig=30 destc=7 destl=46 ident=72>
 <Calcul>
 <Addition>
 <descr>S301_GUO_IV 
@@ -1040,7 +1040,7 @@
 </Addition>
 </Calcul>
 </act>
-<test poscol=3 poslig=30 destouic=5 destouil=30 destnonc=3 destnonl=31 ident=73>
+<test poscol=3 poslig=31 destouic=5 destouil=31 destnonc=3 destnonl=32 ident=73>
 <Operateur>
 </Operateur>
 <Calcul>
@@ -1066,7 +1066,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<act poscol=5 poslig=30 destc=7 destl=45 ident=74>
+<act poscol=5 poslig=31 destc=7 destl=46 ident=74>
 <Calcul>
 <Addition>
 <descr>S301_GUO_V
@@ -1082,7 +1082,7 @@
 </Addition>
 </Calcul>
 </act>
-<test poscol=3 poslig=31 destouic=5 destouil=31 destnonc=3 destnonl=32 ident=75>
+<test poscol=3 poslig=32 destouic=5 destouil=32 destnonc=3 destnonl=33 ident=75>
 <Operateur>
 </Operateur>
 <Calcul>
@@ -1108,7 +1108,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<act poscol=5 poslig=31 destc=7 destl=45 ident=76>
+<act poscol=5 poslig=32 destc=7 destl=46 ident=76>
 <Calcul>
 <Addition>
 <descr>S301_GUO_IV 
@@ -1128,7 +1128,7 @@
 </Addition>
 </Calcul>
 </act>
-<test poscol=3 poslig=32 destouic=5 destouil=32 destnonc=3 destnonl=33 ident=79>
+<test poscol=3 poslig=33 destouic=5 destouil=33 destnonc=3 destnonl=34 ident=79>
 <Operateur>
 </Operateur>
 <Calcul>
@@ -1154,7 +1154,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<act poscol=5 poslig=32 destc=7 destl=45 ident=80>
+<act poscol=5 poslig=33 destc=7 destl=46 ident=80>
 <Calcul>
 <Addition>
 <descr>S301_GUO_V
@@ -1174,7 +1174,7 @@
 </Addition>
 </Calcul>
 </act>
-<test poscol=3 poslig=33 destouic=5 destouil=33 destnonc=3 destnonl=34 ident=81>
+<test poscol=3 poslig=34 destouic=5 destouil=34 destnonc=3 destnonl=35 ident=81>
 <Operateur>
 </Operateur>
 <Calcul>
@@ -1200,7 +1200,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<act poscol=5 poslig=33 destc=7 destl=45 ident=82>
+<act poscol=5 poslig=34 destc=7 destl=46 ident=82>
 <Calcul>
 <Addition>
 <descr>EMS_FLASHFILE_V
@@ -1208,7 +1208,7 @@
 </Addition>
 </Calcul>
 </act>
-<test poscol=3 poslig=34 destouic=5 destouil=34 destnonc=3 destnonl=35 ident=83>
+<test poscol=3 poslig=35 destouic=5 destouil=35 destnonc=3 destnonl=36 ident=83>
 <Operateur>
 </Operateur>
 <Calcul>
@@ -1234,7 +1234,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<test poscol=3 poslig=35 destouic=5 destouil=35 destnonc=3 destnonl=36 ident=84>
+<test poscol=3 poslig=36 destouic=5 destouil=36 destnonc=3 destnonl=37 ident=84>
 <Operateur>
 </Operateur>
 <Calcul>
@@ -1260,7 +1260,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<act poscol=5 poslig=34 destc=7 destl=45 ident=85>
+<act poscol=5 poslig=35 destc=7 destl=46 ident=85>
 <Calcul>
 <Addition>
 <descr>EMS_FLASHFILE_W
@@ -1268,7 +1268,7 @@
 </Addition>
 </Calcul>
 </act>
-<act poscol=5 poslig=35 destc=7 destl=45 ident=86>
+<act poscol=5 poslig=36 destc=7 destl=46 ident=86>
 <Calcul>
 <Addition>
 <descr>EMS_FLASHFILE_Y
@@ -1276,7 +1276,7 @@
 </Addition>
 </Calcul>
 </act>
-<test poscol=3 poslig=36 destouic=5 destouil=36 destnonc=3 destnonl=37 ident=87>
+<test poscol=3 poslig=37 destouic=5 destouil=37 destnonc=3 destnonl=38 ident=87>
 <Operateur>
 </Operateur>
 <Calcul>
@@ -1302,7 +1302,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<act poscol=5 poslig=36 destc=7 destl=45 ident=88>
+<act poscol=5 poslig=37 destc=7 destl=46 ident=88>
 <Calcul>
 <Addition>
 <descr>EMS_FLASHFILE_M
@@ -1424,7 +1424,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<act poscol=5 poslig=4 destc=7 destl=45 ident=101>
+<act poscol=5 poslig=4 destc=7 destl=46 ident=101>
 <Calcul>
 <Addition>
 <descr>EMS_FLASHFILE_U1
@@ -1432,7 +1432,7 @@
 </Addition>
 </Calcul>
 </act>
-<act poscol=5 poslig=5 destc=7 destl=45 ident=102>
+<act poscol=5 poslig=5 destc=7 destl=46 ident=102>
 <Calcul>
 <Addition>
 <descr>EMS_FLASHFILE_U2
@@ -1440,7 +1440,7 @@
 </Addition>
 </Calcul>
 </act>
-<act poscol=5 poslig=6 destc=7 destl=45 ident=103>
+<act poscol=5 poslig=6 destc=7 destl=46 ident=103>
 <Calcul>
 <Addition>
 <descr>EMS_FLASHFILE_U3
@@ -1536,7 +1536,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<act poscol=5 poslig=7 destc=7 destl=11 ident=108>
+<act poscol=5 poslig=7 destc=7 destl=12 ident=108>
 <Calcul>
 <Addition>
 <descr>EMS_FLASHFILE_U4
@@ -1544,7 +1544,7 @@
 </Addition>
 </Calcul>
 </act>
-<act poscol=5 poslig=8 destc=7 destl=11 ident=109>
+<act poscol=5 poslig=8 destc=7 destl=12 ident=109>
 <Calcul>
 <Addition>
 <descr>EMS_FLASHFILE_U5
@@ -1552,7 +1552,7 @@
 </Addition>
 </Calcul>
 </act>
-<act poscol=5 poslig=9 destc=7 destl=11 ident=110>
+<act poscol=5 poslig=9 destc=7 destl=12 ident=110>
 <Calcul>
 <Addition>
 <descr>EMS_FLASHFILE_U6
@@ -1560,7 +1560,7 @@
 </Addition>
 </Calcul>
 </act>
-<act poscol=5 poslig=10 destc=7 destl=11 ident=111>
+<act poscol=5 poslig=10 destc=7 destl=12 ident=111>
 <Calcul>
 <Addition>
 <descr>EMS_FLASHFILE_U7
@@ -1568,7 +1568,37 @@
 </Addition>
 </Calcul>
 </act>
-<act poscol=7 poslig=11 destc=7 destl=45 ident=112>
+<act poscol=7 poslig=12 destc=7 destl=46 ident=112>
+</act>
+<test poscol=3 poslig=11 destouic=5 destouil=11 destnonc=3 destnonl=12 ident=113>
+<Operateur>
+</Operateur>
+<Calcul>
+<TestLogique>
+<TestBuffer nom="EGAL">
+<Buffer>
+<Numero>30
+</Numero>
+<Position>
+<ValPos>1
+</ValPos>
+</Position>
+<Longueur>2
+</Longueur>
+</Buffer>
+<ChaineASCII valeur="U8">
+</ChaineASCII>
+</TestBuffer>
+</TestLogique>
+</Calcul>
+</test>
+<act poscol=5 poslig=11 destc=7 destl=12 ident=114>
+<Calcul>
+<Addition>
+<descr>EMS_FLASHFILE_U8
+</descr>
+</Addition>
+</Calcul>
 </act>
 </cel>
 </iodissee>
