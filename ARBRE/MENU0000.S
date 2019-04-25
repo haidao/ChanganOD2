@@ -1,9 +1,9 @@
-<iodissee chk="1176804903">
+<iodissee chk="1176821501">
 <entete>
 <ifichier>
 <nomfich nom="menu0000">
 </nomfich>
-<modif date="16/04/2019" user="HD" site="OACTIA">
+<modif date="25/04/2019" user="HD" site="OACTIA">
 </modif>
 </ifichier>
 <ioutil nom="ime2" version="8.0.0.0" dateexe="16/04/2019">
@@ -408,7 +408,7 @@
 <Calcul>
 <Affectation>
 <Source>
-<ChaineASCII valeur="Beijing Changan V254 20190422">
+<ChaineASCII valeur="Beijing Changan V255 20190425">
 </ChaineASCII>
 </Source>
 <Destination>
