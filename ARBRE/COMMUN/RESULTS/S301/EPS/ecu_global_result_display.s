@@ -1,12 +1,12 @@
-<iodissee chk="200377212">
+<iodissee chk="198404644">
 <entete>
 <ifichier>
 <nomfich nom="ecu_global_result_display">
 </nomfich>
-<modif date="13/01/2017" user="dengchao wang" site="OACTIA">
+<modif date="26/04/2019" user="HD" site="OACTIA">
 </modif>
 </ifichier>
-<ioutil nom="ime2" version="8.0.0.0" dateexe="02/05/2016">
+<ioutil nom="ime2" version="8.0.0.0" dateexe="16/04/2019">
 </ioutil>
 </entete>
 <precel>
@@ -26,7 +26,7 @@
 </TestLogique>
 </Calcul>
 </test>
-<act poscol=7 poslig=6 destc=5 destl=6 ident=12>
+<act poscol=7 poslig=6 destc=3 destl=6 ident=12>
 <Operateur>
 <Affichage>
 <Paragraphe>
@@ -84,7 +84,7 @@
 </Affichage>
 </Operateur>
 </act>
-<act poscol=3 poslig=4 destc=3 destl=5 ident=17>
+<act poscol=3 poslig=4 destc=3 destl=6 ident=17>
 <Calcul>
 <Addition>
 <descr>GENERAL_EXECUTION_PROBLEM
